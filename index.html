@@ -508,30 +508,7 @@
       </section>
     </section>
 
-    <section class="card">
-      <h2>Example JavaScript</h2>
-      <div class="output">const baseUrl = 'https://web.poecdn.com/api/currency-exchange';
 
-function buildUrl(realm, id) {
-  let url = baseUrl;
-  if (realm) url += '/' + encodeURIComponent(realm);
-  if (id) url += '/' + encodeURIComponent(id);
-  return url;
-}
-
-async function fetchExchangeData(realm, id) {
-  const url = buildUrl(realm, id);
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`Request failed: ${response.status}`);
-  }
-  return response.json();
-}
-
-fetchExchangeData('pc')
-  .then(data => console.log(data))
-  .catch(error => console.error(error));</div>
-    </section>
   </main>
 
   <script>
