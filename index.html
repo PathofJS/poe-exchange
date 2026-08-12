@@ -274,14 +274,7 @@
       color: #fff;
     }
 
-    .hide-league .league-column {
-      display: none;
-    }
 
-    .hide-league thead th.league-column,
-    .hide-league tbody td.league-column {
-      display: none;
-    }
 
     .list {
       display: grid;
@@ -478,21 +471,16 @@
       <div id="list" class="list" style="margin-top: 6px;"></div>
     </section>
 
-    <section class="card">
-      <div class="summary">
-        <h2>API Documentation</h2>
-      </div>
-      <section class="card" id="filteredResultsCard" style="display:none; margin-top: 24px;">
-        <h3>Filtered pairs by league</h3>
-        <div class="note" id="filteredNote"></div>
+    <section class="card" id="filteredResultsCard" style="display:none;">
+        <h3>League Results</h3>
         <div id="leagueTabs" class="tab-bar"></div>
+        <div class="note" id="filteredNote"></div>
         <div class="note">Each market digest is rendered as a pair. The two currency IDs from <code>market_id</code> are separated into <strong>Want</strong> and <strong>Have</strong> columns.</div>
         <div class="note">The metric dictionaries are flattened to show only positive values, using their currency item names from the base item metadata file.</div>
         <div class="scroll-table">
           <table class="market-table" id="filteredTable">
             <thead>
               <tr>
-                <th>League</th>
                 <th>Listing</th>
                 <th>Price</th>
                 <th>Volume Traded</th>
@@ -506,7 +494,6 @@
           </table>
         </div>
       </section>
-    </section>
 
 
   </main>
@@ -869,31 +856,21 @@
     async function fetchExchangeData(realm, id, leagueFilter) {
       const url = buildUrl(realm, id);
       const currencyNameLookup = await currencyNameLookupPromise;
-      output.textContent = `Loading ${url} ...`;
+      output.textContent = `Fetching via Cloudflare Worker proxy...`;
 
       try {
-        const response = await fetch(url, { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error(`${response.status} ${response.statusText}`);
-        }
-        const data = await response.json();
-        renderResult(data, url, leagueFilter, currencyNameLookup);
-      } catch (error) {
-        output.textContent = `Direct request failed: ${error.message}\nRetrying via Cloudflare Worker proxy...`;
-        try {
-          const data = await fetchViaProxy(url, localProxyBase);
-          renderResult(data, url + ' (Cloudflare Worker proxy)', leagueFilter, currencyNameLookup);
-          return;
-        } catch (localError) {
-          output.textContent = `Cloudflare Worker proxy failed: ${localError.message}\nRetrying via public proxy...`;
-        }
+        const data = await fetchViaProxy(url, localProxyBase);
+        renderResult(data, url + ' (via Cloudflare Worker)', leagueFilter, currencyNameLookup);
+        return;
+      } catch (localError) {
+        output.textContent = `Cloudflare Worker proxy failed: ${localError.message}\nRetrying via public proxy...`;
+      }
 
-        try {
-          const data = await fetchViaProxy(url, publicProxyBase);
-          renderResult(data, url + ' (public proxy)', leagueFilter, currencyNameLookup);
-        } catch (proxyError) {
-          output.textContent = `Fetch error: ${proxyError.message}`;
-        }
+      try {
+        const data = await fetchViaProxy(url, publicProxyBase);
+        renderResult(data, url + ' (via public proxy)', leagueFilter, currencyNameLookup);
+      } catch (proxyError) {
+        output.textContent = `Fetch error: ${proxyError.message}`;
       }
     }
 
@@ -902,8 +879,10 @@
     const leagueTabs = document.getElementById('leagueTabs');
     const filteredTable = document.querySelector('#filteredTable');
     const filteredTableBody = filteredTable.querySelector('tbody');
-    let currentLeagueTab = 'All';
+    let currentLeagueTab = null;
+    let selectedCurrencies = [];
     let lastCurrencyNameLookup = new Map();
+    let lastMarkets = [];
 
     function collectPositiveFields(value, prefix = '') {
       if (typeof value === 'number') {
@@ -1031,11 +1010,33 @@
     }
 
     function renderFilteredMarkets(markets, leagueFilter, currencyNameLookup) {
-      const filtered = getFilteredMarkets(markets, leagueFilter, currencyNameLookup);
       filteredTableBody.innerHTML = '';
 
+      if (currentLeagueTab === 'All') {
+        filteredNote.textContent = 'Select a league to view results.';
+        filteredResultsCard.style.display = 'block';
+        return;
+      }
+
+      let filtered = getFilteredMarkets(markets, leagueFilter, currencyNameLookup);
+
+      // Filter by selected currency if one is selected
+      if (selectedCurrencies.length > 0) {
+        const selectedCurrencySet = new Set(selectedCurrencies);
+        filtered = filtered.filter((item) => {
+          const ids = item.market_id.split('|');
+          const listingCurrencyId = ids[0];
+          const priceCurrencyId = ids[1];
+          return selectedCurrencySet.has(listingCurrencyId) || selectedCurrencySet.has(priceCurrencyId);
+        });
+      }
+
       if (filtered.length === 0) {
-        filteredResultsCard.style.display = 'none';
+        const filterMsg = selectedCurrencies.length > 0 
+          ? `No pairs found for league '${currentLeagueTab}' with selected currency.`
+          : `No pairs found for league '${currentLeagueTab}'.`;
+        filteredNote.textContent = filterMsg;
+        filteredResultsCard.style.display = 'block';
         return;
       }
 
@@ -1048,7 +1049,6 @@
 
         const row = document.createElement('tr');
         row.innerHTML = `
-          <td class="league-column">${escapeHtml(item.league)}</td>
           <td><code>${escapeHtml(listingName)}</code></td>
           <td><code>${escapeHtml(priceName)}</code></td>
           <td>${metricDictionaryToHtml(item?.volume_traded || item?.volume || {}, 'volume traded', currencyNameLookup)}</td>
@@ -1060,17 +1060,11 @@
         filteredTableBody.appendChild(row);
       });
 
-      const filterParts = [];
-      if (currentLeagueTab !== 'All') {
-        filterParts.push(`league tab '${currentLeagueTab}'`);
-      }
-      if (leagueFilter) {
-        filterParts.push(`filter '${leagueFilter}'`);
-      }
-      const filterMessage = filterParts.length ? ` (${filterParts.join(', ')})` : '';
-      filteredNote.textContent = `Showing ${filtered.length} pair(s) where at least one numeric field is greater than zero.${filterMessage}`;
+      const filterMsg = selectedCurrencies.length > 0
+        ? `Showing ${filtered.length} pair(s) for league '${currentLeagueTab}' with selected currency.`
+        : `Showing ${filtered.length} pair(s) for league '${currentLeagueTab}' where at least one numeric field is greater than zero.`;
+      filteredNote.textContent = filterMsg;
       filteredResultsCard.style.display = 'block';
-      filteredTable.classList.toggle('hide-league', currentLeagueTab !== 'All');
     }
 
     function setActiveLeagueTab(tab) {
@@ -1083,9 +1077,8 @@
     function renderLeagueTabs(markets) {
       const leagues = Array.from(new Set((Array.isArray(markets) ? markets : []).map((m) => m?.league).filter(Boolean)));
       leagues.sort();
-      const allTabs = ['All', ...leagues];
       leagueTabs.innerHTML = '';
-      allTabs.forEach((league) => {
+      leagues.forEach((league) => {
         const button = document.createElement('button');
         button.type = 'button';
         button.className = 'tab-button';
@@ -1097,11 +1090,12 @@
         });
         leagueTabs.appendChild(button);
       });
-      setActiveLeagueTab('All');
+      if (leagues.length > 0) setActiveLeagueTab(leagues[0]);
     }
 
     function renderResult(data, url, leagueFilter, currencyNameLookup) {
       lastCurrencyNameLookup = currencyNameLookup;
+      lastMarkets = data.markets || [];
       const summary = [];
       summary.push(`URL: ${url}`);
       if (data.next_change_id !== undefined) {
@@ -1121,6 +1115,11 @@
       renderLeagueTabs(data.markets);
       renderFilteredMarkets(data.markets, leagueFilter, currencyNameLookup);
     }
+
+    window.addEventListener('itemsSelected', (event) => {
+      selectedCurrencies = event.detail || [];
+      renderFilteredMarkets(lastMarkets, leagueFilterInput.value, lastCurrencyNameLookup);
+    });
 
     fetchButton.addEventListener('click', () => {
       const realm = realmSelect.value;
