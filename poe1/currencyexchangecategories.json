@@ -1,0 +1,622 @@
+[
+  {
+    "_rid": 0,
+    "Id": "Currency",
+    "Name": "Currency"
+  },
+  {
+    "_rid": 1,
+    "Id": "CurrencyEldritch",
+    "Name": "Eldritch Currency"
+  },
+  {
+    "_rid": 2,
+    "Id": "CurrencyTainted",
+    "Name": "Tainted Currency"
+  },
+  {
+    "_rid": 3,
+    "Id": "CurrencyInfluenced",
+    "Name": "Influenced Currency"
+  },
+  {
+    "_rid": 4,
+    "Id": "CurrencyQuality",
+    "Name": "Quality Currency"
+  },
+  {
+    "_rid": 5,
+    "Id": "CurrencyAstrolabe",
+    "Name": "Astrolabes"
+  },
+  {
+    "_rid": 6,
+    "Id": "CurrencyMemories",
+    "Name": "Memories"
+  },
+  {
+    "_rid": 7,
+    "Id": "Shards",
+    "Name": "Currency Shards"
+  },
+  {
+    "_rid": 8,
+    "Id": "Fragments",
+    "Name": "Fragments"
+  },
+  {
+    "_rid": 9,
+    "Id": "FragmentsAtziri",
+    "Name": "Atziri & Uber Atziri"
+  },
+  {
+    "_rid": 10,
+    "Id": "FragmentsShaper",
+    "Name": "Shaper"
+  },
+  {
+    "_rid": 11,
+    "Id": "FragmentsElder",
+    "Name": "Elder & Uber Elder"
+  },
+  {
+    "_rid": 12,
+    "Id": "FragmentsSirus",
+    "Name": "Awakener"
+  },
+  {
+    "_rid": 13,
+    "Id": "FragmentsLabyrinth",
+    "Name": "The Labyrinth"
+  },
+  {
+    "_rid": 14,
+    "Id": "FragmentsMaven",
+    "Name": "Maven"
+  },
+  {
+    "_rid": 15,
+    "Id": "FragmentsRitual",
+    "Name": "Ritual Fragments"
+  },
+  {
+    "_rid": 16,
+    "Id": "FragmentsUber",
+    "Name": "Uber Fragments"
+  },
+  {
+    "_rid": 17,
+    "Id": "FragmentsBetrayal",
+    "Name": "Immortal Syndicate"
+  },
+  {
+    "_rid": 18,
+    "Id": "FragmentsHarvest",
+    "Name": "Harvest"
+  },
+  {
+    "_rid": 19,
+    "Id": "FragmentsOriginator",
+    "Name": "Originator"
+  },
+  {
+    "_rid": 20,
+    "Id": "FragmentsBrequel",
+    "Name": "Breach"
+  },
+  {
+    "_rid": 21,
+    "Id": "FragmentsFaridun",
+    "Name": "Mirage"
+  },
+  {
+    "_rid": 22,
+    "Id": "FragmentsAbyss",
+    "Name": "Abyss"
+  },
+  {
+    "_rid": 23,
+    "Id": "DeliriumOrbs",
+    "Name": "Delirium Orbs"
+  },
+  {
+    "_rid": 24,
+    "Id": "Essences",
+    "Name": "Essences"
+  },
+  {
+    "_rid": 25,
+    "Id": "EssencesHatred",
+    "Name": "Hatred Essences"
+  },
+  {
+    "_rid": 26,
+    "Id": "EssencesWoe",
+    "Name": "Woe Essences"
+  },
+  {
+    "_rid": 27,
+    "Id": "EssencesGreed",
+    "Name": "Greed Essences"
+  },
+  {
+    "_rid": 28,
+    "Id": "EssencesContempt",
+    "Name": "Contempt Essences"
+  },
+  {
+    "_rid": 29,
+    "Id": "EssencesSorrow",
+    "Name": "Sorrow Essences"
+  },
+  {
+    "_rid": 30,
+    "Id": "EssencesAnger",
+    "Name": "Anger Essences"
+  },
+  {
+    "_rid": 31,
+    "Id": "EssencesTorment",
+    "Name": "Torment Essences"
+  },
+  {
+    "_rid": 32,
+    "Id": "EssencesFear",
+    "Name": "Fear Essences"
+  },
+  {
+    "_rid": 33,
+    "Id": "EssencesSuffering",
+    "Name": "Suffering Essences"
+  },
+  {
+    "_rid": 34,
+    "Id": "EssencesRage",
+    "Name": "Rage Essences"
+  },
+  {
+    "_rid": 35,
+    "Id": "EssencesWrath",
+    "Name": "Wrath Essences"
+  },
+  {
+    "_rid": 36,
+    "Id": "EssencesDoubt",
+    "Name": "Doubt Essences"
+  },
+  {
+    "_rid": 37,
+    "Id": "EssencesAnguish",
+    "Name": "Anguish Essences"
+  },
+  {
+    "_rid": 38,
+    "Id": "EssencesLoathing",
+    "Name": "Loathing Essences"
+  },
+  {
+    "_rid": 39,
+    "Id": "EssencesSpite",
+    "Name": "Spite Essences"
+  },
+  {
+    "_rid": 40,
+    "Id": "EssenceZeal",
+    "Name": "Zeal Essences"
+  },
+  {
+    "_rid": 41,
+    "Id": "EssencesMisery",
+    "Name": "Misery Essences"
+  },
+  {
+    "_rid": 42,
+    "Id": "EssencesDread",
+    "Name": "Dread Essences"
+  },
+  {
+    "_rid": 43,
+    "Id": "EssencesScorn",
+    "Name": "Scorn Essences"
+  },
+  {
+    "_rid": 44,
+    "Id": "EssencesEnvy",
+    "Name": "Envy Essences"
+  },
+  {
+    "_rid": 45,
+    "Id": "EssencesSpecial",
+    "Name": "Special Essences"
+  },
+  {
+    "_rid": 46,
+    "Id": "Breach",
+    "Name": "Breach"
+  },
+  {
+    "_rid": 47,
+    "Id": "BreachSplinters",
+    "Name": "Breach Splinters"
+  },
+  {
+    "_rid": 48,
+    "Id": "BreachFragmentXoph",
+    "Name": "Xoph Breachstones"
+  },
+  {
+    "_rid": 49,
+    "Id": "BreachFragmentTul",
+    "Name": "Tul Breachstones"
+  },
+  {
+    "_rid": 50,
+    "Id": "BreachFragmentEsh",
+    "Name": "Esh Breachstones"
+  },
+  {
+    "_rid": 51,
+    "Id": "BreachFragmentUulNetol",
+    "Name": "Uul-Netol Breachstones"
+  },
+  {
+    "_rid": 52,
+    "Id": "BreachFragmentChayula",
+    "Name": "Chayula Breachstones"
+  },
+  {
+    "_rid": 53,
+    "Id": "BreachBlessings",
+    "Name": "Breach Blessings"
+  },
+  {
+    "_rid": 54,
+    "Id": "Legion",
+    "Name": "Legion"
+  },
+  {
+    "_rid": 55,
+    "Id": "LegionKarui",
+    "Name": "Karui Legion Fragments"
+  },
+  {
+    "_rid": 56,
+    "Id": "LegionEternal",
+    "Name": "Eternal Empire Legion Fragments"
+  },
+  {
+    "_rid": 57,
+    "Id": "LegionMaraketh",
+    "Name": "Maraketh Legion Fragments"
+  },
+  {
+    "_rid": 58,
+    "Id": "LegionTemplar",
+    "Name": "Templar Legion Fragments"
+  },
+  {
+    "_rid": 59,
+    "Id": "LegionVaal",
+    "Name": "Vaal Legion Fragments"
+  },
+  {
+    "_rid": 60,
+    "Id": "LegionSplinters",
+    "Name": "Legion Splinters"
+  },
+  {
+    "_rid": 61,
+    "Id": "LegionFragments",
+    "Name": "Legion Emblems"
+  },
+  {
+    "_rid": 62,
+    "Id": "LegionCocoon",
+    "Name": "Enshrouding Crystals"
+  },
+  {
+    "_rid": 63,
+    "Id": "Delirium",
+    "Name": "Delirium"
+  },
+  {
+    "_rid": 64,
+    "Id": "DeliriumSplinters",
+    "Name": "Simulacrum"
+  },
+  {
+    "_rid": 65,
+    "Id": "Delve",
+    "Name": "Delve"
+  },
+  {
+    "_rid": 66,
+    "Id": "DelveFossils",
+    "Name": "Fossils"
+  },
+  {
+    "_rid": 67,
+    "Id": "DelveResonators",
+    "Name": "Resonators"
+  },
+  {
+    "_rid": 68,
+    "Id": "DivinationCards",
+    "Name": "Divination Cards"
+  },
+  {
+    "_rid": 69,
+    "Id": "DivinationCardsWeaponsArmour",
+    "Name": "Divination Cards Rewarding Weapons or Armour"
+  },
+  {
+    "_rid": 70,
+    "Id": "DivinationCardsJewelleryJewels",
+    "Name": "Divination Cards Rewarding Jewellery or Jewels"
+  },
+  {
+    "_rid": 71,
+    "Id": "DivinationCardsCurrency",
+    "Name": "Divination Cards Rewarding Currency"
+  },
+  {
+    "_rid": 72,
+    "Id": "DivinationCardsGems",
+    "Name": "Divination Cards Rewarding Gems"
+  },
+  {
+    "_rid": 73,
+    "Id": "DivinationCardsMapsFragments",
+    "Name": "Divination Cards Rewarding Maps or Fragments"
+  },
+  {
+    "_rid": 74,
+    "Id": "DivinationCardsFlasks",
+    "Name": "Divination Cards Rewarding Flasks"
+  },
+  {
+    "_rid": 75,
+    "Id": "DivinationCardsMisc",
+    "Name": "Other Divination Cards"
+  },
+  {
+    "_rid": 76,
+    "Id": "Scarabs",
+    "Name": "Scarabs"
+  },
+  {
+    "_rid": 77,
+    "Id": "ScarabsBreach",
+    "Name": "Breach Scarabs"
+  },
+  {
+    "_rid": 78,
+    "Id": "ScarabsSettlers",
+    "Name": "Kalguuran Scarabs"
+  },
+  {
+    "_rid": 79,
+    "Id": "ScarabsMercenaries",
+    "Name": "Mercenary Scarabs"
+  },
+  {
+    "_rid": 80,
+    "Id": "ScarabsMaps",
+    "Name": "Cartography Scarabs"
+  },
+  {
+    "_rid": 81,
+    "Id": "ScarabsUniques",
+    "Name": "Titanic Scarabs"
+  },
+  {
+    "_rid": 82,
+    "Id": "ScarabsBeasts",
+    "Name": "Bestiary Scarabs"
+  },
+  {
+    "_rid": 83,
+    "Id": "ScarabsInfluence",
+    "Name": "Influence Scarabs"
+  },
+  {
+    "_rid": 84,
+    "Id": "ScarabsSulphite",
+    "Name": "Sulphite Scarabs"
+  },
+  {
+    "_rid": 85,
+    "Id": "ScarabsDivination",
+    "Name": "Divination Scarabs"
+  },
+  {
+    "_rid": 86,
+    "Id": "ScarabsTorment",
+    "Name": "Torment Scarabs"
+  },
+  {
+    "_rid": 87,
+    "Id": "ScarabsStrongbox",
+    "Name": "Ambush Scarabs"
+  },
+  {
+    "_rid": 88,
+    "Id": "ScarabsExpedition",
+    "Name": "Expedition Scarabs"
+  },
+  {
+    "_rid": 89,
+    "Id": "ScarabsLegion",
+    "Name": "Legion Scarabs"
+  },
+  {
+    "_rid": 90,
+    "Id": "ScarabsAbyss",
+    "Name": "Abyss Scarabs"
+  },
+  {
+    "_rid": 91,
+    "Id": "ScarabsAnarchy",
+    "Name": "Anarchy Scarabs"
+  },
+  {
+    "_rid": 92,
+    "Id": "ScarabsEssence",
+    "Name": "Essence Scarabs"
+  },
+  {
+    "_rid": 93,
+    "Id": "ScarabsDomination",
+    "Name": "Domination Scarabs"
+  },
+  {
+    "_rid": 94,
+    "Id": "ScarabsRitual",
+    "Name": "Ritual Scarabs"
+  },
+  {
+    "_rid": 95,
+    "Id": "ScarabsHarvest",
+    "Name": "Harvest Scarabs"
+  },
+  {
+    "_rid": 96,
+    "Id": "ScarabsIncursion",
+    "Name": "Incursion Scarabs"
+  },
+  {
+    "_rid": 97,
+    "Id": "ScarabsBetrayal",
+    "Name": "Betrayal Scarabs"
+  },
+  {
+    "_rid": 98,
+    "Id": "ScarabsBeyond",
+    "Name": "Beyond Scarabs"
+  },
+  {
+    "_rid": 99,
+    "Id": "ScarabsUltimatum",
+    "Name": "Ultimatum Scarabs"
+  },
+  {
+    "_rid": 100,
+    "Id": "ScarabsDelirium",
+    "Name": "Delirium Scarabs"
+  },
+  {
+    "_rid": 101,
+    "Id": "ScarabsBlight",
+    "Name": "Blight Scarabs"
+  },
+  {
+    "_rid": 102,
+    "Id": "ScarabsMisc",
+    "Name": "Misc. Scarabs"
+  },
+  {
+    "_rid": 103,
+    "Id": "ScarabsUber",
+    "Name": "Horned Scarabs"
+  },
+  {
+    "_rid": 104,
+    "Id": "Blight",
+    "Name": "Oils"
+  },
+  {
+    "_rid": 105,
+    "Id": "Ultimatum",
+    "Name": "Catalysts"
+  },
+  {
+    "_rid": 106,
+    "Id": "Expedition",
+    "Name": "Expedition"
+  },
+  {
+    "_rid": 107,
+    "Id": "Harvest",
+    "Name": "Harvest"
+  },
+  {
+    "_rid": 108,
+    "Id": "Omens",
+    "Name": "Omens"
+  },
+  {
+    "_rid": 109,
+    "Id": "Tattoos",
+    "Name": "Tattoos"
+  },
+  {
+    "_rid": 110,
+    "Id": "TattoosDex",
+    "Name": "Dexterity Tattoos"
+  },
+  {
+    "_rid": 111,
+    "Id": "TattoosStr",
+    "Name": "Strength Tattoos"
+  },
+  {
+    "_rid": 112,
+    "Id": "TattoosInt",
+    "Name": "Intelligence Tattoos"
+  },
+  {
+    "_rid": 113,
+    "Id": "TattoosSpecial",
+    "Name": "Special Tattoos"
+  },
+  {
+    "_rid": 114,
+    "Id": "Ancestors",
+    "Name": "Ancestors"
+  },
+  {
+    "_rid": 115,
+    "Id": "Kalguur",
+    "Name": "Runecrafting"
+  },
+  {
+    "_rid": 116,
+    "Id": "Runegrafts",
+    "Name": "Runegrafts"
+  },
+  {
+    "_rid": 117,
+    "Id": "Popular",
+    "Name": "Popular"
+  },
+  {
+    "_rid": 118,
+    "Id": "Owned",
+    "Name": "Owned"
+  },
+  {
+    "_rid": 119,
+    "Id": "Favourites",
+    "Name": "Favourites"
+  },
+  {
+    "_rid": 120,
+    "Id": "AllflameEmbers",
+    "Name": "Allflame Embers"
+  },
+  {
+    "_rid": 121,
+    "Id": "Wishes",
+    "Name": "Djinn Coins"
+  },
+  {
+    "_rid": 122,
+    "Id": "DeepwaterDucats",
+    "Name": "Ducats"
+  },
+  {
+    "_rid": 123,
+    "Id": "DeepwaterOther",
+    "Name": "Allflame"
+  }
+]
