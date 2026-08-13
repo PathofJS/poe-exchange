@@ -1,0 +1,277 @@
+[
+  {
+    "_rid": 0,
+    "Id": "Currency",
+    "Name": "Currency"
+  },
+  {
+    "_rid": 1,
+    "Id": "CurrencyQuality",
+    "Name": "Quality Currency"
+  },
+  {
+    "_rid": 2,
+    "Id": "CurrencySockets",
+    "Name": "Jewellers' Currency"
+  },
+  {
+    "_rid": 3,
+    "Id": "CurrencyIdentification",
+    "Name": "Identification Currency"
+  },
+  {
+    "_rid": 4,
+    "Id": "Shards",
+    "Name": "Currency Shards"
+  },
+  {
+    "_rid": 5,
+    "Id": "Fragments",
+    "Name": "Fragments"
+  },
+  {
+    "_rid": 6,
+    "Id": "Ritual",
+    "Name": "Ritual"
+  },
+  {
+    "_rid": 7,
+    "Id": "FragmentsUltimatum",
+    "Name": "Ultimatum Fragments"
+  },
+  {
+    "_rid": 8,
+    "Id": "FragmentsPinnacle",
+    "Name": "Pinnacle Fragments"
+  },
+  {
+    "_rid": 9,
+    "Id": "FragmentsVaultKey",
+    "Name": "Reliquary Keys"
+  },
+  {
+    "_rid": 10,
+    "Id": "EssencesLesser",
+    "Name": "Lesser Essences"
+  },
+  {
+    "_rid": 11,
+    "Id": "Essences",
+    "Name": "Essences"
+  },
+  {
+    "_rid": 12,
+    "Id": "EssencesGreater",
+    "Name": "Greater Essences"
+  },
+  {
+    "_rid": 13,
+    "Id": "EssencesPerfect",
+    "Name": "Perfect Essences"
+  },
+  {
+    "_rid": 14,
+    "Id": "EssencesCorrupted",
+    "Name": "Corrupted Essences"
+  },
+  {
+    "_rid": 15,
+    "Id": "Breach",
+    "Name": "Breach"
+  },
+  {
+    "_rid": 16,
+    "Id": "BreachSplinters",
+    "Name": "Breach Splinters"
+  },
+  {
+    "_rid": 17,
+    "Id": "BreachCatalyst",
+    "Name": "Catalysts"
+  },
+  {
+    "_rid": 18,
+    "Id": "Delirium",
+    "Name": "Delirium"
+  },
+  {
+    "_rid": 19,
+    "Id": "DeliriumSplinters",
+    "Name": "Simulacrum"
+  },
+  {
+    "_rid": 20,
+    "Id": "DeliriumInstill",
+    "Name": "Liquid Emotions"
+  },
+  {
+    "_rid": 21,
+    "Id": "DivinationCards",
+    "Name": "Divination Cards"
+  },
+  {
+    "_rid": 22,
+    "Id": "DivinationCardsWeaponsArmour",
+    "Name": "Divination Cards Rewarding Weapons or Armour"
+  },
+  {
+    "_rid": 23,
+    "Id": "DivinationCardsJewelleryJewels",
+    "Name": "Divination Cards Rewarding Jewellery or Jewels"
+  },
+  {
+    "_rid": 24,
+    "Id": "DivinationCardsCurrency",
+    "Name": "Divination Cards Rewarding Currency"
+  },
+  {
+    "_rid": 25,
+    "Id": "DivinationCardsGems",
+    "Name": "Divination Cards Rewarding Gems"
+  },
+  {
+    "_rid": 26,
+    "Id": "DivinationCardsMapsFragments",
+    "Name": "Divination Cards Rewarding Maps or Fragments"
+  },
+  {
+    "_rid": 27,
+    "Id": "DivinationCardsFlasks",
+    "Name": "Divination Cards Rewarding Flasks"
+  },
+  {
+    "_rid": 28,
+    "Id": "DivinationCardsMisc",
+    "Name": "Other Divination Cards"
+  },
+  {
+    "_rid": 29,
+    "Id": "Expedition",
+    "Name": "Expedition"
+  },
+  {
+    "_rid": 30,
+    "Id": "ExpeditionArtifacts",
+    "Name": "Artifacts"
+  },
+  {
+    "_rid": 31,
+    "Id": "Verisium",
+    "Name": "Verisium"
+  },
+  {
+    "_rid": 32,
+    "Id": "Alloys",
+    "Name": "Alloys"
+  },
+  {
+    "_rid": 33,
+    "Id": "Fluxes",
+    "Name": "Fluxes"
+  },
+  {
+    "_rid": 34,
+    "Id": "StarlitOre",
+    "Name": "Starlit Ore"
+  },
+  {
+    "_rid": 35,
+    "Id": "Popular",
+    "Name": "Popular"
+  },
+  {
+    "_rid": 36,
+    "Id": "Owned",
+    "Name": "Owned"
+  },
+  {
+    "_rid": 37,
+    "Id": "Runes",
+    "Name": "Runes"
+  },
+  {
+    "_rid": 38,
+    "Id": "PerfectRunes",
+    "Name": "Perfect Runes"
+  },
+  {
+    "_rid": 39,
+    "Id": "GreaterRunes",
+    "Name": "Greater Runes"
+  },
+  {
+    "_rid": 40,
+    "Id": "SoulCore",
+    "Name": "Soul Cores"
+  },
+  {
+    "_rid": 41,
+    "Id": "Omens",
+    "Name": "Omens"
+  },
+  {
+    "_rid": 42,
+    "Id": "OmensSpecial",
+    "Name": "Special Omens"
+  },
+  {
+    "_rid": 43,
+    "Id": "Idol",
+    "Name": "Idols"
+  },
+  {
+    "_rid": 44,
+    "Id": "UncutGems",
+    "Name": "Uncut Gems"
+  },
+  {
+    "_rid": 45,
+    "Id": "UncutSupportGems",
+    "Name": "Uncut Support Gems"
+  },
+  {
+    "_rid": 46,
+    "Id": "UncutSkillGems",
+    "Name": "Uncut Skill Gems"
+  },
+  {
+    "_rid": 47,
+    "Id": "UncutReservationGems",
+    "Name": "Uncut Reservation Gems"
+  },
+  {
+    "_rid": 48,
+    "Id": "Abyss",
+    "Name": "Abyss"
+  },
+  {
+    "_rid": 49,
+    "Id": "AbyssTickets",
+    "Name": "Abyssal Bones"
+  },
+  {
+    "_rid": 50,
+    "Id": "Gems",
+    "Name": "Gems"
+  },
+  {
+    "_rid": 51,
+    "Id": "LineageSupports",
+    "Name": "Lineage Support Gems"
+  },
+  {
+    "_rid": 52,
+    "Id": "Incursion",
+    "Name": "Atziri's Temple"
+  },
+  {
+    "_rid": 53,
+    "Id": "AbyssalEye",
+    "Name": "Abyssal Eyes"
+  },
+  {
+    "_rid": 54,
+    "Id": "Favourites",
+    "Name": "Favourites"
+  }
+]
