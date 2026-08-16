@@ -6,11 +6,41 @@
   <title>Path of Exile Currency Exchange</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='1' y='13' font-family='system-ui' font-size='12' fill='%23ffffff'%3EXE%3C/text%3E%3C/svg%3E" />
   <style>
+    @font-face {
+      font-family: 'Fontin';
+      src: url('https://ggpk.exposed/poe1/art/2dart/fonts/fontin-regular.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Fontin';
+      src: url('https://ggpk.exposed/poe1/art/2dart/fonts/fontin-bold.ttf') format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'Fontin';
+      src: url('https://ggpk.exposed/poe1/art/2dart/fonts/fontin-italic.ttf') format('truetype');
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    @font-face {
+      font-family: 'Fontin SmallCaps';
+      src: url('https://ggpk.exposed/poe1/art/2dart/fonts/fontin-smallcaps.ttf') format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+
     :root {
       color-scheme: dark;
       color: #e3e8ee;
       background: #08101b;
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --fontin: 'Fontin';
+      --fontin-smallcaps: 'Fontin SmallCaps';
     }
 
     * {
@@ -248,7 +278,7 @@
     .market-table thead th {
       position: sticky;
       top: 0;
-      z-index: 2;
+      z-index: 10;
       background: rgba(6, 17, 29, 0.98);
       color: #e8f4ff;
       backdrop-filter: blur(6px);
@@ -400,6 +430,58 @@
       color: #fff;
     }
 
+    .side-toggle-slider {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      padding: 4px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      min-width: 210px;
+    }
+
+    .side-toggle-slider::before {
+      content: "";
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      width: calc((100% - 12px) / 3);
+      height: calc(100% - 8px);
+      background: rgba(125, 245, 255, 0.18);
+      border: 1px solid rgba(125, 245, 255, 0.34);
+      border-radius: 999px;
+      transition: transform 0.18s ease;
+      z-index: 0;
+    }
+
+    .side-toggle-slider[data-side="want"]::before {
+      transform: translateX(calc(100% + 4px));
+    }
+
+    .side-toggle-slider[data-side="any"]::before {
+      transform: translateX(calc(200% + 8px));
+    }
+
+    .side-toggle {
+      position: relative;
+      z-index: 1;
+      background: transparent;
+      color: #d9e3ef;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      padding: 6px 10px;
+      font-size: 0.75rem;
+      transition: color 0.18s ease;
+    }
+
+    .side-toggle.active {
+      color: #ffffff;
+    }
+
     .item-group {
       display: none;
       gap: 8px;
@@ -440,6 +522,23 @@
       outline: 2px solid transparent;
       outline-offset: -2px;
       margin: 0;
+    }
+
+    .item.divination-card-item {
+      width: 100px;
+      min-width: 100px;
+      height: 152px;
+      min-height: 152px;
+      padding: 0;
+      border: none;
+      outline: none;
+      border-radius: 0;
+      background: transparent;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: none;
     }
 
     .item.selected {
@@ -485,6 +584,7 @@
     }
 
     .item .thumb {
+      position: relative;
       width: 40px;
       height: 40px;
       border-radius: 6px;
@@ -495,11 +595,102 @@
       justify-content: center;
     }
 
+    .item.divination-card-item .thumb {
+      position: relative;
+      width: 100px;
+      height: 152px;
+      border-radius: 0;
+      overflow: visible;
+      background: transparent;
+      display: block;
+    }
+
     .item .thumb img {
-      width: 100%;
-      height: 100%;
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      width: 28px;
+      height: auto;
+      max-height: 32px;
       object-fit: contain;
       display: block;
+      transform: translateX(-50%);
+      z-index: 1;
+    }
+
+    .item.divination-card-item .thumb img {
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      width: 89px;
+      height: auto;
+      max-height: 152px;
+      object-fit: contain;
+      transform: translateX(-50%);
+      z-index: 1;
+      border: none;
+      box-shadow: none;
+      outline: none;
+    }
+
+.divination-card-frame {
+      display: none;
+      border: none;
+      box-shadow: none;
+      outline: none;
+    }
+
+    .item.divination-card-item .divination-card-frame {
+      display: block;
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background-image: url('poe1/divination-card.webp');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100px 152px;
+    }
+
+    .item.divination-card-item .divination-card-name {
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      width: 78%;
+      transform: translateX(-50%);
+      z-index: 3;
+      text-align: center;
+      font-family: 'Fontin';
+      font-size: 0.48rem;
+      line-height: 1.06;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgb(3, 3, 1);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      pointer-events: none;
+      white-space: normal;
+      word-break: break-word;
+    }
+
+    .divination-card-frame + img {
+      display: none;
+    }
+
+    .item.divination-card-item .divination-card-frame + img {
+      display: block;
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      width: 89px;
+      height: auto;
+      max-height: 152px;
+      object-fit: contain;
+      transform: translateX(-50%);
+      z-index: 1;
+      border: none;
+      box-shadow: none;
+      outline: none;
     }
 
     .table-icon {
@@ -513,6 +704,53 @@
       margin: 0 auto 6px;
       vertical-align: middle;
       flex-shrink: 0;
+      position: relative;
+    }
+
+    .table-icon.divination-card-table-icon {
+      overflow: visible;
+      width: 100px;
+      height: 152px;
+      min-width: 100px;
+      min-height: 152px;
+      background: transparent;
+      border: none;
+      border-radius: 0;
+      margin: 0 auto;
+      z-index: 1;
+    }
+
+    .table-icon.divination-card-table-icon::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background-image: url('poe1/divination-card.webp');
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: 100px 152px;
+    }
+
+    .divination-card-table-name {
+      position: absolute;
+      top: 4px;
+      left: 50%;
+      width: 78%;
+      transform: translateX(-50%);
+      z-index: 3;
+      text-align: center;
+      font-family: 'Fontin';
+      font-size: 0.48rem;
+      line-height: 1.06;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgb(3, 3, 1);
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+      pointer-events: none;
+      white-space: normal;
+      word-break: break-word;
     }
 
     .table-icon img {
@@ -520,6 +758,23 @@
       height: 100%;
       object-fit: contain;
       display: block;
+      position: relative;
+      z-index: 1;
+    }
+
+    .table-icon.divination-card-table-icon img {
+      position: absolute;
+      top: 12px;
+      left: 50%;
+      width: 89px;
+      height: auto;
+      max-height: 152px;
+      object-fit: contain;
+      transform: translateX(-50%);
+      z-index: 1;
+      border: none;
+      box-shadow: none;
+      outline: none;
     }
 
     .table-name {
@@ -592,6 +847,77 @@
       object-fit: contain;
       display: block;
     }
+
+    .top-currency-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 6px;
+      padding-top: 8px;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .top-currency-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #a8caff;
+    }
+
+    .top-currency-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      min-height: 30px;
+      align-items: center;
+    }
+
+    .top-currency-badge {
+      width: 30px;
+      height: 30px;
+      padding: 0;
+      border-radius: 6px;
+      overflow: hidden;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+      color: inherit;
+      font: inherit;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .top-currency-badge:hover,
+    .top-currency-badge:focus-visible {
+      transform: none;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .top-currency-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .top-currency-badge.placeholder {
+      background: rgba(125, 245, 255, 0.08);
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+
+    .top-currency-badge.selected {
+      outline: 2px solid #7df5ff;
+      outline-offset: -2px;
+      box-shadow: 0 0 0 1px rgba(125, 245, 255, 0.3);
+    }
+
   </style>
 </head>
 <body>
@@ -645,7 +971,6 @@
           <button id="searchClearBtn" type="button" class="search-clear" aria-label="Clear search">×</button>
           <div id="searchSuggestions" class="search-suggestions" hidden></div>
         </div>
-        <button id="prefetch" style="padding: 8px 12px; font-size: 0.85rem;">Prefetch</button>
       </div>
 
       <div id="count" style="margin-bottom: 6px; color: #8aa2c0; font-size: 0.9rem;"></div>
@@ -655,6 +980,13 @@
       <div style="display: flex; gap: 16px; align-items: flex-start;">
         <div style="flex-shrink: 0; width: 220px; border-right: 1px solid rgba(255, 255, 255, 0.08); padding-right: 12px;">
           <div style="font-size: 0.85rem; font-weight: 600; color: #a8caff; margin-bottom: 8px;">Selected</div>
+          <div style="display: flex; justify-content: center; margin-bottom: 10px;">
+            <div class="side-toggle-slider" data-side="have" aria-label="Choose Have, Want, or Any selection mode">
+              <button type="button" class="side-toggle active" data-side="have">Have</button>
+              <button type="button" class="side-toggle" data-side="want">Want</button>
+              <button type="button" class="side-toggle" data-side="any">Any</button>
+            </div>
+          </div>
           <div id="selectedCurrencyList" class="selected-currency-list" style="flex-direction: column; align-items: flex-start; margin: 0; min-height: auto;" aria-live="polite"></div>
         </div>
         <div style="flex: 1;">
@@ -700,9 +1032,10 @@
     const localProxyBase = 'https://faustus.poe-currency-exchange.workers.dev/proxy?url=';
     const publicProxyBase = 'https://api.allorigins.win/raw?url=';
 
-    function getCurrentHourBucket() {
-      // Return the current time rounded down to the nearest hour boundary
-      return Math.floor(Date.now() / 1000 / 3600) * 3600;
+    function getLatestCompletedHourBucket() {
+      // Use the most recent fully available hour. If it's 18:42, the 18:00-19:00 bucket is not ready yet,
+      // so the latest valid selection is the 17:00-18:00 hour bucket.
+      return Math.floor((Date.now() - 3600000) / 1000 / 3600) * 3600;
     }
 
     function updateTimeDisplay() {
@@ -723,8 +1056,8 @@
     }
 
     function setTimestamp(offsetSeconds) {
-      const currentHour = getCurrentHourBucket();
-      const value = currentHour - offsetSeconds;
+      const latestCompletedHour = getLatestCompletedHourBucket();
+      const value = latestCompletedHour - offsetSeconds;
       idInput.value = String(value);
       updateTimeDisplay();
     }
@@ -734,7 +1067,7 @@
       const customSectionEl = document.getElementById('customTimeSection');
       // Note: API requires timestamps on hour boundaries (XX:00:00 UTC)
       const presets = [
-        { label: 'Now', seconds: 0 },
+        { label: 'Latest Hour', seconds: 0 },
         { label: '1 hour ago', seconds: 1 * 3600 },
         { label: '3 hours ago', seconds: 3 * 3600 },
         { label: '6 hours ago', seconds: 6 * 3600 },
@@ -760,7 +1093,7 @@
       customOption.textContent = '--- Custom ---';
       presetsEl.appendChild(customOption);
       
-      // Set initial value to "Now" (current hour)
+      // Set initial value to the latest completed hour so the UI does not request a future bucket.
       presetsEl.value = 0;
       setTimestamp(0);
       
@@ -797,7 +1130,6 @@
     const searchClearBtn = document.getElementById('searchClearBtn');
     const countEl = document.getElementById('count');
     const groupTabsEl = document.getElementById('groupTabs');
-    const prefetchBtn = document.getElementById('prefetch');
     const clearSelectedButton = document.getElementById('clearSelectedButton');
     let visualIdentityMap = new Map();
     let currentGroupTab = null;
@@ -915,8 +1247,47 @@
       return itemCategoryMap;
     }
 
+    function isActualDivinationCardItem(item) {
+      if (!item) return false;
+
+      const candidate = (() => {
+        const maybeId = item && (item.Id ?? (item.dataset && item.dataset.id));
+        if (!maybeId) return item;
+        const actualItem = itemLookupById.get(maybeId);
+        return actualItem || item;
+      })();
+
+      const id = String(candidate.Id || item && item.Id || '');
+      const name = String(candidate.Name || item && item.Name || '');
+      if (!id || !/\/divinationcards\//i.test(id)) return false;
+      if (/DivinationCardDeck$/i.test(id) || /stacked deck/i.test(name)) return false;
+      const inheritsFrom = String(candidate.InheritsFrom || item && item.InheritsFrom || '');
+      return /\/divinationcards\/abstractdivinationcard$/i.test(inheritsFrom) || /\/divinationcards\//i.test(id) && /abstractdivinationcard/i.test(String(candidate.InheritsFrom || ''));
+    }
+
+    function getDivinationCardNameForUrl(name) {
+      // Convert card name to URL format: "Three Faces in the Dark" -> "threefacesinthedark"
+      return name
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '')
+        .trim();
+    }
+
     function imageUrlForItem(item, realm = '') {
-      const realmPath = realm === 'poe2' ? '/poe2' : '';
+      const realmPath = realm === 'poe2' ? '/poe2' : '/poe1';
+      const id = item && item.Id ? item.Id : '';
+      const name = item && item.Name ? item.Name : '';
+
+      // Real Divination Cards use their own artwork path and generic fallback icon.
+      if (isActualDivinationCardItem(item)) {
+        if (name) {
+          const cardUrlName = getDivinationCardNameForUrl(name);
+          return `https://image.ggpk.exposed${realmPath}/art/textures/interface/2d/divinationcards/2ditems/divination/images/${cardUrlName}.dds?format=png`;
+        }
+        return `https://image.ggpk.exposed${realmPath}/art/2ditems/divination/inventoryicon.dds?format=png`;
+      }
+
+      // Then check visual identity for other items, including Stacked Deck currency using Deck.dds.
       const visualId = item && typeof item.ItemVisualIdentity === 'number' ? item.ItemVisualIdentity : null;
       if (visualId !== null && visualIdentityMap.has(visualId)) {
         const filePath = visualIdentityMap.get(visualId).replace(/^\/+/, '').replace(/\\/g, '/');
@@ -924,17 +1295,12 @@
         return `https://image.ggpk.exposed${realmPath}/${encodedPath}?format=png`;
       }
 
-      const id = item && item.Id ? item.Id : '';
-
+      // Handle currency
       if (/\/currency\//i.test(id)) {
         const parts = id.split('/');
         const last = parts[parts.length - 1] || id;
         const safeName = encodeURIComponent(last.toLowerCase());
         return `https://image.ggpk.exposed${realmPath}/art/2ditems/currency/${safeName}.dds?format=png`;
-      }
-
-      if (/\/divinationcards\//i.test(id)) {
-        return `https://image.ggpk.exposed${realmPath}/art/2ditems/divination/inventoryicon.dds?format=png`;
       }
 
       return null;
@@ -979,6 +1345,7 @@
       const id = item.Id;
       const name = item.Name || id;
       const url = imageUrlForItem(item, currentRealm);
+      const isDivinationCard = isActualDivinationCardItem(item);
 
       const wrap = document.createElement('div');
       wrap.className = 'item';
@@ -992,6 +1359,13 @@
       const img = document.createElement('img');
       img.alt = name;
       thumb.appendChild(img);
+
+      if (isDivinationCard) {
+        const frameName = document.createElement('div');
+        frameName.className = 'divination-card-name';
+        frameName.textContent = name;
+        thumb.appendChild(frameName);
+      }
 
       const meta = document.createElement('div');
       meta.className = 'meta';
@@ -1007,13 +1381,60 @@
           return;
         }
 
-        const cached = await fetchAndCache(url);
-        if (cached) {
-          img.src = cached;
-        } else {
-          img.src = url;
+        const fallbackUrl = isDivinationCard
+          ? `https://image.ggpk.exposed${currentRealm === 'poe2' ? '/poe2' : '/poe1'}/art/2ditems/divination/inventoryicon.dds?format=png`
+          : null;
+
+        const loadImage = async (src) => {
+          if (!src) return false;
+          const cached = await fetchAndCache(src);
+          if (cached) {
+            img.src = cached;
+            return true;
+          }
+          img.src = src;
+          return !!src;
+        };
+
+        try {
+          const uniqueLoaded = await loadImage(url);
+          if (!uniqueLoaded) {
+            throw new Error('Missing image');
+          }
+
+          if (isDivinationCard) {
+            const frame = thumb.querySelector('.divination-card-frame');
+            if (frame) frame.remove();
+          }
+        } catch (e) {
+          if (fallbackUrl && isDivinationCard) {
+            wrap.classList.remove('divination-card-item');
+            const frame = thumb.querySelector('.divination-card-frame');
+            if (frame) frame.remove();
+            try {
+              const fallbackLoaded = await loadImage(fallbackUrl);
+              if (!fallbackLoaded) {
+                img.style.display = 'none';
+                wrap.style.opacity = '0.7';
+              }
+            } catch (fallbackError) {
+              img.style.display = 'none';
+              wrap.style.opacity = '0.7';
+            }
+            return;
+          }
+          img.style.display = 'none';
+          wrap.style.opacity = '0.7';
         }
+
         img.onerror = () => {
+          if (fallbackUrl && isDivinationCard) {
+            wrap.classList.remove('divination-card-item');
+            const frame = thumb.querySelector('.divination-card-frame');
+            if (frame) frame.remove();
+            img.src = fallbackUrl;
+            return;
+          }
           img.style.display = 'none';
           wrap.style.opacity = '0.7';
         };
@@ -1023,14 +1444,56 @@
       return wrap;
     }
 
+    function getSelectedCurrencyIds() {
+      const selected = new Set();
+      document.querySelectorAll('#list .item.selected').forEach((item) => {
+        if (item.dataset.id) selected.add(item.dataset.id);
+      });
+      document.querySelectorAll('.top-currency-badge.selected[data-currency-id]').forEach((badge) => {
+        if (badge.dataset.currencyId) selected.add(badge.dataset.currencyId);
+      });
+      return Array.from(selected);
+    }
+
+    function syncSelectionVisuals() {
+      const selectedSet = new Set(selectedCurrencies);
+      document.querySelectorAll('#list .item').forEach((item) => {
+        item.classList.toggle('selected', selectedSet.has(item.dataset.id));
+      });
+      document.querySelectorAll('.top-currency-badge[data-currency-id]').forEach((badge) => {
+        badge.classList.toggle('selected', selectedSet.has(badge.dataset.currencyId));
+      });
+    }
+
     function dispatchSelection() {
-      const selected = Array.from(document.querySelectorAll('#list .item.selected')).map(i => i.dataset.id);
+      const selected = getSelectedCurrencyIds();
       const ev = new CustomEvent('itemsSelected', { detail: selected });
       window.dispatchEvent(ev);
     }
 
     function selectItem(itemEl) {
-      itemEl.classList.toggle('selected');
+      const currencyId = itemEl.dataset.id;
+      if (!currencyId) return;
+
+      const targetList = selectionMode === 'have'
+        ? selectedHaveCurrencies
+        : selectionMode === 'want'
+          ? selectedWantCurrencies
+          : selectedAnyCurrencies;
+      const existingIndex = targetList.indexOf(currencyId);
+
+      if (existingIndex >= 0) {
+        targetList.splice(existingIndex, 1);
+      } else {
+        targetList.push(currencyId);
+      }
+
+      selectedCurrencies = [...new Set([
+        ...selectedHaveCurrencies,
+        ...selectedWantCurrencies,
+        ...selectedAnyCurrencies
+      ])];
+      syncSelectionVisuals();
       dispatchSelection();
     }
 
@@ -1120,16 +1583,6 @@
     }
 
 
-    prefetchBtn.addEventListener('click', async () => {
-      prefetchBtn.disabled = true;
-      const urls = Array.from(document.querySelectorAll('#list .item'))
-        .map(item => item.dataset.imageUrl)
-        .filter(Boolean);
-      for (const u of urls) { await fetchAndCache(u); }
-      prefetchBtn.disabled = false;
-      alert('Prefetch complete (cached to session)');
-    });
-
     searchEl.addEventListener('input', () => {
       const q = searchEl.value.trim().toLowerCase();
       if (!q) {
@@ -1171,7 +1624,13 @@
       const selectedCurrencyList = document.getElementById('selectedCurrencyList');
       if (!selectedCurrencyList) return;
 
-      if (selectedCurrencies.length === 0) {
+      const assignedSelections = [
+        ...selectedHaveCurrencies.map((currencyId) => ({ side: 'Have', currencyId })),
+        ...selectedAnyCurrencies.map((currencyId) => ({ side: 'Any', currencyId })),
+        ...selectedWantCurrencies.map((currencyId) => ({ side: 'Want', currencyId }))
+      ];
+
+      if (assignedSelections.length === 0) {
         selectedCurrencyList.innerHTML = '';
         selectedCurrencyList.style.display = 'none';
         return;
@@ -1180,26 +1639,43 @@
       selectedCurrencyList.style.display = 'flex';
       selectedCurrencyList.innerHTML = '';
 
-      selectedCurrencies.forEach((currencyId) => {
+      assignedSelections.forEach(({ side, currencyId }) => {
         const chip = document.createElement('div');
         chip.className = 'selected-currency-chip';
+
+        const sideLabel = document.createElement('span');
+        sideLabel.textContent = `${side}:`;
+        sideLabel.style.opacity = '0.8';
+        sideLabel.style.marginRight = '2px';
 
         const label = document.createElement('span');
         label.textContent = getCurrencyDisplayName(currencyId, lastCurrencyNameLookup);
 
         const removeBtn = document.createElement('button');
         removeBtn.type = 'button';
-        removeBtn.setAttribute('aria-label', `Remove ${label.textContent}`);
-        removeBtn.textContent = '×';
+        removeBtn.setAttribute('aria-label', `Remove ${side} ${label.textContent}`);
+        removeBtn.textContent = 'x';
         removeBtn.addEventListener('click', () => {
           const itemEl = document.querySelector(`#list .item[data-id="${CSS.escape(currencyId)}"]`);
           if (itemEl) {
             itemEl.classList.remove('selected');
           }
-          selectedCurrencies = selectedCurrencies.filter((id) => id !== currencyId);
+          if (side === 'Have') {
+            selectedHaveCurrencies = selectedHaveCurrencies.filter((id) => id !== currencyId);
+          } else if (side === 'Any') {
+            selectedAnyCurrencies = selectedAnyCurrencies.filter((id) => id !== currencyId);
+          } else {
+            selectedWantCurrencies = selectedWantCurrencies.filter((id) => id !== currencyId);
+          }
+          selectedCurrencies = [...new Set([
+            ...selectedHaveCurrencies,
+            ...selectedAnyCurrencies,
+            ...selectedWantCurrencies
+          ])];
           dispatchSelection();
         });
 
+        chip.appendChild(sideLabel);
         chip.appendChild(label);
         chip.appendChild(removeBtn);
         selectedCurrencyList.appendChild(chip);
@@ -1218,8 +1694,11 @@
     }
 
     function clearAllSelectedCurrencies() {
-      if (selectedCurrencies.length === 0) return;
+      if (selectedCurrencies.length === 0 && selectedHaveCurrencies.length === 0 && selectedAnyCurrencies.length === 0 && selectedWantCurrencies.length === 0) return;
       document.querySelectorAll('#list .item.selected').forEach((el) => el.classList.remove('selected'));
+      selectedHaveCurrencies = [];
+      selectedAnyCurrencies = [];
+      selectedWantCurrencies = [];
       selectedCurrencies = [];
       dispatchSelection();
     }
@@ -1303,14 +1782,95 @@
       return [cachedAllItems, cachedVisualMap];
     }
 
-    function switchGroupTab(groupKey) {
+    function sortGroupRowByTradeScore(row) {
+      if (!row) return;
+      const scoreMap = getTradeScoreMap(lastMarkets);
+      const children = Array.from(row.children).sort((a, b) => {
+        const aId = a && a.dataset && a.dataset.id ? a.dataset.id : '';
+        const bId = b && b.dataset && b.dataset.id ? b.dataset.id : '';
+        const allItemsIndexA = Array.from(document.querySelectorAll('#list .item')).findIndex((item) => item === a);
+        const allItemsIndexB = Array.from(document.querySelectorAll('#list .item')).findIndex((item) => item === b);
+        const aScore = getItemTradeScore({ Id: aId }, scoreMap, allItemsIndexA);
+        const bScore = getItemTradeScore({ Id: bId }, scoreMap, allItemsIndexB);
+        if (bScore !== aScore) return bScore - aScore;
+        const aName = a && a.dataset && a.dataset.name ? a.dataset.name : '';
+        const bName = b && b.dataset && b.dataset.name ? b.dataset.name : '';
+        return String(aName).localeCompare(String(bName));
+      });
+      children.forEach((child) => row.appendChild(child));
+    }
+
+    function switchGroupTab(groupKey, userIntent = false) {
+      const shouldRestoreAllGroups = userIntent && currentGroupTab === groupKey;
+
+      if (shouldRestoreAllGroups) {
+        currentGroupTab = null;
+        document.querySelectorAll('.item-group').forEach((group) => group.classList.add('active'));
+        document.querySelectorAll('.group-tab-btn').forEach((button) => button.classList.remove('active'));
+        applyDivinationCardLayoutForGroup(null, false);
+        return;
+      }
+
       currentGroupTab = groupKey;
-      document.querySelectorAll('.item-group').forEach((g) => g.classList.remove('active'));
-      document.querySelectorAll('.group-tab-btn').forEach((b) => b.classList.remove('active'));
+      document.querySelectorAll('.item-group').forEach((group) => {
+        const matches = group.dataset.tagKey === groupKey;
+        group.classList.toggle('active', matches);
+      });
+      document.querySelectorAll('.group-tab-btn').forEach((button) => {
+        const matches = button.dataset.group === groupKey;
+        button.classList.toggle('active', matches);
+      });
+
       const activeGroup = document.querySelector(`[data-tag-key=\"${groupKey}\"]`);
-      if (activeGroup) activeGroup.classList.add('active');
-      const activeBtn = groupTabsEl.querySelector(`[data-group=\"${groupKey}\"]`);
-      if (activeBtn) activeBtn.classList.add('active');
+      if (activeGroup) {
+        sortGroupRowByTradeScore(activeGroup.querySelector('.item-row'));
+      }
+      applyDivinationCardLayoutForGroup(groupKey, userIntent);
+    }
+
+    function applyDivinationCardLayoutForGroup(groupKey, userIntent = false) {
+      const shouldEnable = userIntent && !!groupKey && String(groupKey).toLowerCase().includes('divination');
+      const activeGroup = groupKey ? document.querySelector(`[data-tag-key="${groupKey}"]`) : null;
+      const targetItems = activeGroup ? activeGroup.querySelectorAll('.item') : [];
+
+      document.querySelectorAll('.item-group .item').forEach((item) => {
+        const isDivination = isActualDivinationCardItem({
+          Id: item.dataset && item.dataset.id ? item.dataset.id : '',
+          Name: item.dataset && item.dataset.name ? item.dataset.name : ''
+        });
+        if (!isDivination) return;
+
+        const frame = item.querySelector('.divination-card-frame');
+        if (frame) frame.remove();
+        item.classList.remove('divination-card-item');
+        const thumb = item.querySelector('.thumb');
+        if (thumb) {
+          thumb.style.width = '';
+          thumb.style.height = '';
+        }
+      });
+
+      if (!shouldEnable || !targetItems.length) return;
+
+      targetItems.forEach((item) => {
+        const isDivination = isActualDivinationCardItem({
+          Id: item.dataset && item.dataset.id ? item.dataset.id : '',
+          Name: item.dataset && item.dataset.name ? item.dataset.name : ''
+        });
+        if (!isDivination) return;
+
+        item.classList.add('divination-card-item');
+        const existingFrame = item.querySelector('.divination-card-frame');
+        if (!existingFrame) {
+          const thumb = item.querySelector('.thumb');
+          const img = item.querySelector('.thumb img');
+          if (!thumb || !img) return;
+          const newFrame = document.createElement('div');
+          newFrame.className = 'divination-card-frame';
+          newFrame.style.backgroundImage = "url('./poe1/divination-card.webp')";
+          thumb.insertBefore(newFrame, img);
+        }
+      });
     }
 
     function initItemFilter(markets, allItems, visualMap) {
@@ -1339,12 +1899,14 @@
           return currencyIds.has(index) || currencyIds.has(String(index)) || currencyIds.has(it.Id);
         });
 
+        const sortedCurrency = sortCurrencyItemsByTradeScore(currency, markets, allItems);
+
         listEl.innerHTML = '';
         groupTabsEl.innerHTML = '';
         const groups = new Map();
         const groupOrder = [];
         
-        currency.forEach((item, indexInFiltered) => {
+        sortedCurrency.forEach((item, indexInFiltered) => {
           const originalIndex = allItems.indexOf(item);
           const groupKey = buildGroupKey(item, originalIndex >= 0 ? originalIndex : indexInFiltered);
           if (!groups.has(groupKey)) {
@@ -1374,12 +1936,12 @@
           btn.className = 'group-tab-btn';
           btn.textContent = groupKey === 'ungrouped' ? 'Ungrouped' : groupKey;
           btn.dataset.group = groupKey;
-          btn.addEventListener('click', () => switchGroupTab(groupKey));
+          btn.addEventListener('click', () => switchGroupTab(groupKey, true));
           groupTabsEl.appendChild(btn);
         });
 
         if (groupOrder.length > 0) {
-          switchGroupTab(groupOrder[0]);
+          switchGroupTab(groupOrder[0], false);
         }
 
         setCount(currency.length, currencyIds.size);
@@ -1440,21 +2002,34 @@
     async function fetchExchangeData(realm, id, leagueFilter) {
       currentRealm = realm;
       const url = buildUrl(realm, id);
-      const currencyNameLookup = await loadCurrencyNameLookup(realm);
+      fetchButton.disabled = true;
+      fetchButton.textContent = 'Loading...';
+      listEl.innerHTML = '<div class="note">Loading market data...</div>';
+      groupTabsEl.innerHTML = '';
+      filteredResultsCard.style.display = 'none';
 
       try {
-        const data = await fetchViaProxy(url, localProxyBase);
-        renderResult(data, url + ' (via Cloudflare Worker)', leagueFilter, currencyNameLookup, realm);
-        return;
-      } catch (localError) {
-        // Retry with public proxy
-      }
+        const [allItems] = await loadItemsAndVisuals(realm);
+        const currencyNameLookup = await loadCurrencyNameLookup(realm);
 
-      try {
-        const data = await fetchViaProxy(url, publicProxyBase);
-        renderResult(data, url + ' (via public proxy)', leagueFilter, currencyNameLookup, realm);
-      } catch (proxyError) {
-        console.error('Fetch error:', proxyError.message);
+        try {
+          const data = await fetchViaProxy(url, localProxyBase);
+          await renderResult(data, url + ' (via Cloudflare Worker)', leagueFilter, currencyNameLookup, realm);
+          return;
+        } catch (localError) {
+          // Retry with public proxy
+        }
+
+        try {
+          const data = await fetchViaProxy(url, publicProxyBase);
+          await renderResult(data, url + ' (via public proxy)', leagueFilter, currencyNameLookup, realm);
+        } catch (proxyError) {
+          console.error('Fetch error:', proxyError.message);
+          listEl.innerHTML = '<div class="note">Failed to load market data. Please try again.</div>';
+        }
+      } finally {
+        fetchButton.disabled = false;
+        fetchButton.textContent = 'Fetch';
       }
     }
 
@@ -1465,8 +2040,14 @@
     const filteredTableBody = filteredTable.querySelector('tbody');
     let currentLeagueTab = null;
     let selectedCurrencies = [];
+    let selectedHaveCurrencies = [];
+    let selectedAnyCurrencies = [];
+    let selectedWantCurrencies = [];
+    let selectionMode = 'have';
     let lastCurrencyNameLookup = new Map();
     let lastMarkets = [];
+    let currentFilteredTableData = [];
+    let currentTableSort = { key: 'highest_stock', direction: 'desc' };
 
     function collectPositiveFields(value, prefix = '') {
       if (typeof value === 'number') {
@@ -1592,6 +2173,69 @@
         .filter(Boolean);
     }
 
+    function getTradeScoreMap(markets) {
+      const totals = new Map();
+
+      (Array.isArray(markets) ? markets : []).forEach((market) => {
+        if (!market || !market.market_id) return;
+
+        const ids = (market.market_id || '').split('|').map((id) => (id || '').trim()).filter(Boolean);
+        if (ids.length === 0) return;
+
+        const tradedVolume = market.volume_traded && typeof market.volume_traded === 'object'
+          ? Object.values(market.volume_traded).reduce((sum, value) => sum + (Number(value) || 0), 0)
+          : 0;
+
+        if (tradedVolume <= 0) return;
+
+        ids.forEach((id) => {
+          totals.set(id, (totals.get(id) || 0) + tradedVolume);
+        });
+      });
+
+      return totals;
+    }
+
+    function getTopTradedCurrencyIds(markets) {
+      return Array.from(getTradeScoreMap(markets).entries())
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 10)
+        .map(([id]) => id);
+    }
+
+    function getItemTradeScore(item, scoreMap, allItemsIndex = null) {
+      if (!item) return 0;
+      const indexValue = Number(allItemsIndex);
+      const candidates = new Set();
+      if (item.Id) candidates.add(item.Id);
+      if (item.Id !== undefined && item.Id !== null) candidates.add(String(item.Id));
+      if (Number.isFinite(indexValue)) {
+        candidates.add(indexValue);
+        candidates.add(String(indexValue));
+      }
+      let best = 0;
+      candidates.forEach((candidate) => {
+        best = Math.max(best, Number(scoreMap.get(candidate)) || 0);
+      });
+      return best;
+    }
+
+    function sortCurrencyItemsByTradeScore(items, markets, allItems = []) {
+      if (!Array.isArray(items)) return [];
+      const scoreMap = getTradeScoreMap(markets);
+      return [...items].sort((a, b) => {
+        const aIdx = allItems.indexOf(a);
+        const bIdx = allItems.indexOf(b);
+        const aScore = getItemTradeScore(a, scoreMap, aIdx);
+        const bScore = getItemTradeScore(b, scoreMap, bIdx);
+        if (bScore !== aScore) return bScore - aScore;
+
+        const aName = (a && (a.Name || a.Id)) || '';
+        const bName = (b && (b.Name || b.Id)) || '';
+        return String(aName).localeCompare(String(bName));
+      });
+    }
+
     function metricDictionaryToHtml(metricMap, metricName, currencyNameLookup) {
       if (!metricMap || typeof metricMap !== 'object') {
         return '<span class="empty-cell">—</span>';
@@ -1632,8 +2276,9 @@
         return '<span class="empty-cell">—</span>';
       }
 
-      const normalizedListing = (listingNum / listingNum).toFixed(2);
-      const normalizedPrice = (priceNum / listingNum).toFixed(2);
+      const divisor = Math.min(listingNum, priceNum);
+      const normalizedListing = (listingNum / divisor).toFixed(2);
+      const normalizedPrice = (priceNum / divisor).toFixed(2);
 
       return `<code>${listingNum}:${priceNum} <span title="Normalized ratio">(${normalizedListing}:${normalizedPrice})</span></code>`;
     }
@@ -1642,7 +2287,159 @@
       // Look up the actual item to get its visual identity
       const actualItem = itemLookupById.get(currencyId) || { Id: currencyId, ItemVisualIdentity: null };
       const url = imageUrlForItem(actualItem, currentRealm);
-      return `<div class="table-icon" title="${escapeHtml(name)}"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="${escapeHtml(name)}" data-src="${escapeHtml(url)}" /></div>`;
+      const isDivinationCard = isActualDivinationCardItem(actualItem);
+      const titleMarkup = isDivinationCard ? `<div class="divination-card-table-name">${escapeHtml(name)}</div>` : '';
+      return `<div class="table-icon${isDivinationCard ? ' divination-card-table-icon' : ''}" title="${escapeHtml(name)}">${titleMarkup}<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" alt="${escapeHtml(name)}" data-src="${escapeHtml(url)}" /></div>`;
+    }
+
+    function getSelectedCurrencySortValue(currencyId, currencyNameLookup) {
+      if (!currencyId) return Number.MAX_SAFE_INTEGER;
+      const selectedIndex = selectedCurrencies.indexOf(currencyId);
+      if (selectedIndex >= 0) return selectedIndex;
+
+      const name = currencyNameLookup?.get(currencyId) || prettifyName(getLastPathName(currencyId)) || String(currencyId);
+      return Number.MAX_SAFE_INTEGER - 1 + String(name).localeCompare(String(name));
+    }
+
+    function getMetricRatioValue(metricMap, leftId, rightId) {
+      if (!metricMap || typeof metricMap !== 'object') return Number.NEGATIVE_INFINITY;
+
+      const left = Number(metricMap[leftId]);
+      const right = Number(metricMap[rightId]);
+
+      if (Number.isFinite(left) && Number.isFinite(right) && right !== 0) {
+        return left / right;
+      }
+      if (Number.isFinite(left) && !Number.isFinite(right)) {
+        return left;
+      }
+      if (!Number.isFinite(left) && Number.isFinite(right)) {
+        return right;
+      }
+      return 0;
+    }
+
+    function getMarketSortValue(market, key, currencyNameLookup) {
+      const ids = (market.market_id || '').split('|').map((id) => (id || '').trim()).filter(Boolean);
+      const haveId = ids[0] || '';
+      const wantId = ids[1] || '';
+
+      switch (key) {
+        case 'have': {
+          const selectedRank = getSelectedCurrencySortValue(haveId, currencyNameLookup);
+          const name = currencyNameLookup?.get(haveId) || prettifyName(getLastPathName(haveId)) || haveId;
+          return selectedRank === Number.MAX_SAFE_INTEGER ? String(name).localeCompare(String(name)) : selectedRank;
+        }
+        case 'want': {
+          const selectedRank = getSelectedCurrencySortValue(wantId, currencyNameLookup);
+          const name = currencyNameLookup?.get(wantId) || prettifyName(getLastPathName(wantId)) || wantId;
+          return selectedRank === Number.MAX_SAFE_INTEGER ? String(name).localeCompare(String(name)) : selectedRank;
+        }
+        case 'volume_traded':
+          return getMetricRatioValue(market?.volume_traded || {}, haveId, wantId);
+        case 'lowest_stock':
+          return getMetricRatioValue(market?.lowest_stock || {}, haveId, wantId);
+        case 'highest_stock':
+          return getMetricRatioValue(market?.highest_stock || {}, haveId, wantId);
+        case 'avg_stock': {
+          const lowRatio = getMetricRatioValue(market?.lowest_stock || {}, haveId, wantId);
+          const highRatio = getMetricRatioValue(market?.highest_stock || {}, haveId, wantId);
+          return (lowRatio + highRatio) / 2;
+        }
+        case 'stock_range': {
+          const lowRatio = getMetricRatioValue(market?.lowest_stock || {}, haveId, wantId);
+          const highRatio = getMetricRatioValue(market?.highest_stock || {}, haveId, wantId);
+          return Math.abs(highRatio - lowRatio);
+        }
+        default:
+          return 0;
+      }
+    }
+
+    function getSelectionMatchScore(market) {
+      if (!market || !market.market_id) return 0;
+      const ids = (market.market_id || '').split('|').map((id) => (id || '').trim()).filter(Boolean);
+      if (!ids.length) return 0;
+
+      let score = 0;
+      const haveMatches = ids.filter((id) => selectedHaveCurrencies.includes(id)).length;
+      const wantMatches = ids.filter((id) => selectedWantCurrencies.includes(id)).length;
+      const anyMatches = ids.filter((id) => selectedAnyCurrencies.includes(id)).length;
+
+      if (selectedHaveCurrencies.length > 0 && haveMatches > 0) score += 100 + haveMatches * 10;
+      if (selectedWantCurrencies.length > 0 && wantMatches > 0) score += 100 + wantMatches * 10;
+      if (selectedAnyCurrencies.length > 0 && anyMatches > 0) score += 50 + anyMatches * 5;
+
+      return score;
+    }
+
+    function compareMarketRows(a, b, sortKey, direction, currencyNameLookup) {
+      const hasActiveSelection = selectedHaveCurrencies.length > 0 || selectedWantCurrencies.length > 0 || selectedAnyCurrencies.length > 0;
+      if (hasActiveSelection) {
+        const aMatchScore = getSelectionMatchScore(a);
+        const bMatchScore = getSelectionMatchScore(b);
+        if (aMatchScore !== bMatchScore) {
+          return bMatchScore - aMatchScore;
+        }
+      }
+
+      const aValue = getMarketSortValue(a, sortKey, currencyNameLookup);
+      const bValue = getMarketSortValue(b, sortKey, currencyNameLookup);
+      const numericA = Number.isFinite(Number(aValue)) ? Number(aValue) : Number.NEGATIVE_INFINITY;
+      const numericB = Number.isFinite(Number(bValue)) ? Number(bValue) : Number.NEGATIVE_INFINITY;
+
+      if (sortKey === 'have' || sortKey === 'want') {
+        if (aValue === bValue) {
+          const aVolume = (a?.volume_traded ? Object.values(a.volume_traded).reduce((sum, v) => sum + Number(v || 0), 0) : 0);
+          const bVolume = (b?.volume_traded ? Object.values(b.volume_traded).reduce((sum, v) => sum + Number(v || 0), 0) : 0);
+          return direction === 'asc' ? aVolume - bVolume : bVolume - aVolume;
+        }
+        return direction === 'asc' ? (aValue > bValue ? 1 : -1) : (aValue < bValue ? 1 : -1);
+      }
+
+      if (aValue === bValue) {
+        const aVolume = (a?.volume_traded ? Object.values(a.volume_traded).reduce((sum, v) => sum + Number(v || 0), 0) : 0);
+        const bVolume = (b?.volume_traded ? Object.values(b.volume_traded).reduce((sum, v) => sum + Number(v || 0), 0) : 0);
+        return direction === 'asc' ? aVolume - bVolume : bVolume - aVolume;
+      }
+
+      return direction === 'asc' ? numericA - numericB : numericB - numericA;
+    }
+
+    function sortMarketRows(rows, sortState, currencyNameLookup) {
+      const { key, direction } = sortState;
+      return [...rows].sort((a, b) => compareMarketRows(a, b, key, direction, currencyNameLookup));
+    }
+
+    function bindTableSortHandlers() {
+      const headers = filteredTable.querySelectorAll('thead th');
+      const sortKeys = ['have', 'want', 'volume_traded', 'lowest_stock', 'highest_stock', 'avg_stock', 'stock_range'];
+
+      headers.forEach((header, index) => {
+        const sortKey = sortKeys[index] || 'highest_stock';
+        if (header.dataset.sortBound === 'true') return;
+        header.dataset.sortBound = 'true';
+        header.style.cursor = 'pointer';
+        header.title = 'Click to sort';
+        header.addEventListener('click', () => {
+          const isSameKey = currentTableSort.key === sortKey;
+          currentTableSort.key = sortKey;
+          currentTableSort.direction = isSameKey
+            ? (currentTableSort.direction === 'asc' ? 'desc' : 'asc')
+            : (sortKey === 'have' || sortKey === 'want' ? 'asc' : 'desc');
+
+          headers.forEach((candidate) => {
+            const candidateKey = sortKeys[Array.from(headers).indexOf(candidate)] || 'highest_stock';
+            const isActive = candidateKey === currentTableSort.key;
+            candidate.textContent = candidate.textContent.replace(/\s*[↑↓]\s*$/, '');
+            candidate.textContent = isActive
+              ? `${candidate.textContent.trim()} ${currentTableSort.direction === 'asc' ? '↑' : '↓'}`
+              : candidate.textContent.trim();
+          });
+
+          renderFilteredMarkets(lastMarkets, '', lastCurrencyNameLookup);
+        });
+      });
     }
 
     function renderFilteredMarkets(markets, leagueFilter, currencyNameLookup) {
@@ -1656,16 +2453,35 @@
 
       let filtered = getFilteredMarkets(markets, leagueFilter, currencyNameLookup);
 
-      if (selectedCurrencies.length > 0) {
-        const selectedSet = new Set(selectedCurrencies);
+      const hasHaveFilter = selectedHaveCurrencies.length > 0;
+      const hasWantFilter = selectedWantCurrencies.length > 0;
+      const hasAnyFilter = selectedAnyCurrencies.length > 0;
 
+      if (hasHaveFilter || hasWantFilter || hasAnyFilter) {
         filtered = filtered.filter((item) => {
-          const ids = (item.market_id || '').split('|');
-          return ids.some((id) => selectedSet.has(id));
-        }).sort((a, b) => {
-          const aMatchCount = (a.market_id || '').split('|').filter((id) => selectedSet.has(id)).length;
-          const bMatchCount = (b.market_id || '').split('|').filter((id) => selectedSet.has(id)).length;
+          const ids = (item.market_id || '').split('|').map((id) => (id || '').trim()).filter(Boolean);
 
+          const matchesHave = selectedHaveCurrencies.length > 0 && ids.some((id) => selectedHaveCurrencies.includes(id));
+          const matchesWant = selectedWantCurrencies.length > 0 && ids.some((id) => selectedWantCurrencies.includes(id));
+          const matchesAny = selectedAnyCurrencies.length > 0 && ids.some((id) => selectedAnyCurrencies.includes(id));
+
+          if (selectionMode === 'any') {
+            if (hasAnyFilter && !matchesAny) return false;
+            return true;
+          }
+
+          if (hasHaveFilter && !matchesHave) return false;
+          if (hasWantFilter && !matchesWant) return false;
+          if (hasAnyFilter && !matchesAny) return false;
+          return true;
+        }).sort((a, b) => {
+          const relevantSet = new Set([
+            ...selectedHaveCurrencies,
+            ...selectedAnyCurrencies,
+            ...selectedWantCurrencies
+          ]);
+          const aMatchCount = (a.market_id || '').split('|').filter((id) => relevantSet.has(id)).length;
+          const bMatchCount = (b.market_id || '').split('|').filter((id) => relevantSet.has(id)).length;
           if (bMatchCount !== aMatchCount) return bMatchCount - aMatchCount;
 
           const aPriority = getSelectedMarketPriority(a.market_id);
@@ -1687,7 +2503,9 @@
         return;
       }
 
-      filtered.forEach((item) => {
+      currentFilteredTableData = sortMarketRows(filtered, currentTableSort, currencyNameLookup);
+
+      currentFilteredTableData.forEach((item) => {
         const ids = item.market_id.split('|');
         const listingCurrencyId = ids[0];
         const priceCurrencyId = ids[1];
@@ -1769,6 +2587,55 @@
       if (leagues.length > 0) setActiveLeagueTab(leagues[0]);
     }
 
+    function renderStaticItemList(allItems) {
+      if (!Array.isArray(allItems) || allItems.length === 0) return;
+
+      listEl.innerHTML = '';
+      groupTabsEl.innerHTML = '';
+      const groups = new Map();
+      const groupOrder = [];
+
+      allItems.forEach((item) => {
+        if (!item || !item.Id) return;
+        const groupKey = buildGroupKey(item);
+        if (!groups.has(groupKey)) {
+          groupOrder.push(groupKey);
+          const groupRoot = document.createElement('div');
+          groupRoot.className = 'item-group';
+          groupRoot.dataset.tagKey = groupKey;
+
+          const header = document.createElement('div');
+          header.className = 'item-group-header';
+          header.textContent = groupKey === 'ungrouped' ? 'Ungrouped' : groupKey;
+
+          const row = document.createElement('div');
+          row.className = 'item-row';
+
+          groupRoot.appendChild(header);
+          groupRoot.appendChild(row);
+          groups.set(groupKey, row);
+          listEl.appendChild(groupRoot);
+        }
+
+        groups.get(groupKey).appendChild(createItemNode(item));
+      });
+
+      groupOrder.forEach((groupKey) => {
+        const btn = document.createElement('button');
+        btn.className = 'group-tab-btn';
+        btn.textContent = groupKey === 'ungrouped' ? 'Ungrouped' : groupKey;
+        btn.dataset.group = groupKey;
+        btn.addEventListener('click', () => switchGroupTab(groupKey));
+        groupTabsEl.appendChild(btn);
+      });
+
+      if (groupOrder.length > 0) {
+        switchGroupTab(groupOrder[0]);
+      }
+
+      setCount(allItems.length, allItems.length);
+    }
+
     async function renderResult(data, url, leagueFilter, currencyNameLookup, realm = '') {
       lastCurrencyNameLookup = currencyNameLookup;
       lastMarkets = data.markets || [];
@@ -1777,11 +2644,28 @@
       initItemFilter(data.markets, allItems, visualMap);
 
       renderLeagueTabs(data.markets);
+      bindTableSortHandlers();
       renderFilteredMarkets(data.markets, leagueFilter, currencyNameLookup);
     }
 
+    const sideToggleSlider = document.querySelector('.side-toggle-slider');
+    document.querySelectorAll('.side-toggle').forEach((button) => {
+      button.addEventListener('click', () => {
+        selectionMode = button.dataset.side || 'have';
+        if (sideToggleSlider) {
+          sideToggleSlider.dataset.side = selectionMode;
+        }
+        document.querySelectorAll('.side-toggle').forEach((candidate) => {
+          candidate.classList.toggle('active', candidate.dataset.side === selectionMode);
+        });
+        renderFilteredMarkets(lastMarkets, '', lastCurrencyNameLookup);
+      });
+    });
+
     window.addEventListener('itemsSelected', (event) => {
-      selectedCurrencies = event.detail || [];
+      const payload = event.detail || [];
+      selectedCurrencies = Array.isArray(payload) ? payload : [...(payload.have || []), ...(payload.want || [])];
+      syncSelectionVisuals();
       renderSelectedCurrencyChips();
       renderFilteredMarkets(lastMarkets, '', lastCurrencyNameLookup);
     });
