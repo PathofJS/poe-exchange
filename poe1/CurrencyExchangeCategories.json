@@ -1,0 +1,492 @@
+[
+  {
+    "_index": 0,
+    "Id": "Currency",
+    "Name": "Currency"
+  },
+  {
+    "_index": 1,
+    "Id": "CurrencyEldritch",
+    "Name": "Eldritch Currency"
+  },
+  {
+    "_index": 2,
+    "Id": "CurrencyTainted",
+    "Name": "Tainted Currency"
+  },
+  {
+    "_index": 3,
+    "Id": "CurrencyInfluenced",
+    "Name": "Influenced Currency"
+  },
+  {
+    "_index": 4,
+    "Id": "CurrencyQuality",
+    "Name": "Quality Currency"
+  },
+  {
+    "_index": 5,
+    "Id": "CurrencyAstrolabe",
+    "Name": "Astrolabes"
+  },
+  {
+    "_index": 6,
+    "Id": "CurrencyMemories",
+    "Name": "Memories"
+  },
+  {
+    "_index": 7,
+    "Id": "Shards",
+    "Name": "Currency Shards"
+  },
+  {
+    "_index": 8,
+    "Id": "Fragments",
+    "Name": "Fragments"
+  },
+  {
+    "_index": 9,
+    "Id": "FragmentsShaper",
+    "Name": "Shaper"
+  },
+  {
+    "_index": 10,
+    "Id": "FragmentsElder",
+    "Name": "Elder & Uber Elder"
+  },
+  {
+    "_index": 11,
+    "Id": "FragmentsSirus",
+    "Name": "Awakener"
+  },
+  {
+    "_index": 12,
+    "Id": "FragmentsLabyrinth",
+    "Name": "The Labyrinth"
+  },
+  {
+    "_index": 13,
+    "Id": "FragmentsMaven",
+    "Name": "Maven"
+  },
+  {
+    "_index": 14,
+    "Id": "FragmentsRitual",
+    "Name": "Ritual Fragments"
+  },
+  {
+    "_index": 15,
+    "Id": "FragmentsUber",
+    "Name": "Uber Fragments"
+  },
+  {
+    "_index": 16,
+    "Id": "FragmentsBetrayal",
+    "Name": "Immortal Syndicate"
+  },
+  {
+    "_index": 17,
+    "Id": "FragmentsHarvest",
+    "Name": "Harvest"
+  },
+  {
+    "_index": 18,
+    "Id": "FragmentsOriginator",
+    "Name": "Originator"
+  },
+  {
+    "_index": 19,
+    "Id": "FragmentsBrequel",
+    "Name": "Breach"
+  },
+  {
+    "_index": 20,
+    "Id": "FragmentsAtziri",
+    "Name": "Incursion"
+  },
+  {
+    "_index": 21,
+    "Id": "FragmentsFaridun",
+    "Name": "Mirage"
+  },
+  {
+    "_index": 22,
+    "Id": "FragmentsAbyss",
+    "Name": "Abyss"
+  },
+  {
+    "_index": 23,
+    "Id": "FragmentsAugury",
+    "Name": "Coven"
+  },
+  {
+    "_index": 24,
+    "Id": "DeliriumOrbs",
+    "Name": "Delirium Orbs"
+  },
+  {
+    "_index": 25,
+    "Id": "Essences",
+    "Name": "Essences"
+  },
+  {
+    "_index": 26,
+    "Id": "EssencesHatred",
+    "Name": "Hatred Essences"
+  },
+  {
+    "_index": 27,
+    "Id": "EssencesWoe",
+    "Name": "Woe Essences"
+  },
+  {
+    "_index": 28,
+    "Id": "EssencesGreed",
+    "Name": "Greed Essences"
+  },
+  {
+    "_index": 29,
+    "Id": "EssencesContempt",
+    "Name": "Contempt Essences"
+  },
+  {
+    "_index": 30,
+    "Id": "EssencesSorrow",
+    "Name": "Sorrow Essences"
+  },
+  {
+    "_index": 31,
+    "Id": "EssencesAnger",
+    "Name": "Anger Essences"
+  },
+  {
+    "_index": 32,
+    "Id": "EssencesTorment",
+    "Name": "Torment Essences"
+  },
+  {
+    "_index": 33,
+    "Id": "EssencesFear",
+    "Name": "Fear Essences"
+  },
+  {
+    "_index": 34,
+    "Id": "EssencesSuffering",
+    "Name": "Suffering Essences"
+  },
+  {
+    "_index": 35,
+    "Id": "EssencesRage",
+    "Name": "Rage Essences"
+  },
+  {
+    "_index": 36,
+    "Id": "EssencesWrath",
+    "Name": "Wrath Essences"
+  },
+  {
+    "_index": 37,
+    "Id": "EssencesDoubt",
+    "Name": "Doubt Essences"
+  },
+  {
+    "_index": 38,
+    "Id": "EssencesAnguish",
+    "Name": "Anguish Essences"
+  },
+  {
+    "_index": 39,
+    "Id": "EssencesLoathing",
+    "Name": "Loathing Essences"
+  },
+  {
+    "_index": 40,
+    "Id": "EssencesSpite",
+    "Name": "Spite Essences"
+  },
+  {
+    "_index": 41,
+    "Id": "EssenceZeal",
+    "Name": "Zeal Essences"
+  },
+  {
+    "_index": 42,
+    "Id": "EssencesMisery",
+    "Name": "Misery Essences"
+  },
+  {
+    "_index": 43,
+    "Id": "EssencesDread",
+    "Name": "Dread Essences"
+  },
+  {
+    "_index": 44,
+    "Id": "EssencesScorn",
+    "Name": "Scorn Essences"
+  },
+  {
+    "_index": 45,
+    "Id": "EssencesEnvy",
+    "Name": "Envy Essences"
+  },
+  {
+    "_index": 46,
+    "Id": "EssencesSpecial",
+    "Name": "Special Essences"
+  },
+  {
+    "_index": 47,
+    "Id": "Breach",
+    "Name": "Breach"
+  },
+  {
+    "_index": 48,
+    "Id": "BreachSplinters",
+    "Name": "Breach Splinters"
+  },
+  {
+    "_index": 49,
+    "Id": "BreachFragmentXoph",
+    "Name": "Xoph Breachstones"
+  },
+  {
+    "_index": 50,
+    "Id": "BreachFragmentTul",
+    "Name": "Tul Breachstones"
+  },
+  {
+    "_index": 51,
+    "Id": "BreachFragmentEsh",
+    "Name": "Esh Breachstones"
+  },
+  {
+    "_index": 52,
+    "Id": "BreachFragmentUulNetol",
+    "Name": "Uul-Netol Breachstones"
+  },
+  {
+    "_index": 53,
+    "Id": "BreachFragmentChayula",
+    "Name": "Chayula Breachstones"
+  },
+  {
+    "_index": 54,
+    "Id": "BreachBlessings",
+    "Name": "Breach Blessings"
+  },
+  {
+    "_index": 55,
+    "Id": "Legion",
+    "Name": "Legion"
+  },
+  {
+    "_index": 56,
+    "Id": "LegionKarui",
+    "Name": "Karui Legion Fragments"
+  },
+  {
+    "_index": 57,
+    "Id": "LegionEternal",
+    "Name": "Eternal Empire Legion Fragments"
+  },
+  {
+    "_index": 58,
+    "Id": "LegionMaraketh",
+    "Name": "Maraketh Legion Fragments"
+  },
+  {
+    "_index": 59,
+    "Id": "LegionTemplar",
+    "Name": "Templar Legion Fragments"
+  },
+  {
+    "_index": 60,
+    "Id": "LegionVaal",
+    "Name": "Vaal Legion Fragments"
+  },
+  {
+    "_index": 61,
+    "Id": "LegionSplinters",
+    "Name": "Legion Splinters"
+  },
+  {
+    "_index": 62,
+    "Id": "LegionFragments",
+    "Name": "Legion Emblems"
+  },
+  {
+    "_index": 63,
+    "Id": "LegionCocoon",
+    "Name": "Enshrouding Crystals"
+  },
+  {
+    "_index": 64,
+    "Id": "Delirium",
+    "Name": "Delirium"
+  },
+  {
+    "_index": 65,
+    "Id": "DeliriumSplinters",
+    "Name": "Simulacrum"
+  },
+  {
+    "_index": 66,
+    "Id": "Delve",
+    "Name": "Delve"
+  },
+  {
+    "_index": 67,
+    "Id": "DelveFossils",
+    "Name": "Fossils"
+  },
+  {
+    "_index": 68,
+    "Id": "DelveResonators",
+    "Name": "Resonators"
+  },
+  {
+    "_index": 69,
+    "Id": "DivinationCards",
+    "Name": "Divination Cards"
+  },
+  {
+    "_index": 70,
+    "Id": "DivinationCardsWeaponsArmour",
+    "Name": "Divination Cards Rewarding Weapons or Armour"
+  },
+  {
+    "_index": 71,
+    "Id": "DivinationCardsJewelleryJewels",
+    "Name": "Divination Cards Rewarding Jewellery or Jewels"
+  },
+  {
+    "_index": 72,
+    "Id": "DivinationCardsCurrency",
+    "Name": "Divination Cards Rewarding Currency"
+  },
+  {
+    "_index": 73,
+    "Id": "DivinationCardsGems",
+    "Name": "Divination Cards Rewarding Gems"
+  },
+  {
+    "_index": 74,
+    "Id": "DivinationCardsMapsFragments",
+    "Name": "Divination Cards Rewarding Maps or Fragments"
+  },
+  {
+    "_index": 75,
+    "Id": "DivinationCardsFlasks",
+    "Name": "Divination Cards Rewarding Flasks"
+  },
+  {
+    "_index": 76,
+    "Id": "DivinationCardsMisc",
+    "Name": "Other Divination Cards"
+  },
+  {
+    "_index": 77,
+    "Id": "Threads",
+    "Name": "Threads"
+  },
+  {
+    "_index": 78,
+    "Id": "Blight",
+    "Name": "Oils"
+  },
+  {
+    "_index": 79,
+    "Id": "Ultimatum",
+    "Name": "Catalysts"
+  },
+  {
+    "_index": 80,
+    "Id": "Expedition",
+    "Name": "Expedition"
+  },
+  {
+    "_index": 81,
+    "Id": "Harvest",
+    "Name": "Harvest"
+  },
+  {
+    "_index": 82,
+    "Id": "Omens",
+    "Name": "Omens"
+  },
+  {
+    "_index": 83,
+    "Id": "Tattoos",
+    "Name": "Tattoos"
+  },
+  {
+    "_index": 84,
+    "Id": "TattoosDex",
+    "Name": "Dexterity Tattoos"
+  },
+  {
+    "_index": 85,
+    "Id": "TattoosStr",
+    "Name": "Strength Tattoos"
+  },
+  {
+    "_index": 86,
+    "Id": "TattoosInt",
+    "Name": "Intelligence Tattoos"
+  },
+  {
+    "_index": 87,
+    "Id": "TattoosSpecial",
+    "Name": "Special Tattoos"
+  },
+  {
+    "_index": 88,
+    "Id": "Ancestors",
+    "Name": "Ancestors"
+  },
+  {
+    "_index": 89,
+    "Id": "Kalguur",
+    "Name": "Runecrafting"
+  },
+  {
+    "_index": 90,
+    "Id": "Runegrafts",
+    "Name": "Runegrafts"
+  },
+  {
+    "_index": 91,
+    "Id": "Popular",
+    "Name": "Popular"
+  },
+  {
+    "_index": 92,
+    "Id": "Owned",
+    "Name": "Owned"
+  },
+  {
+    "_index": 93,
+    "Id": "Favourites",
+    "Name": "Favourites"
+  },
+  {
+    "_index": 94,
+    "Id": "AllflameEmbers",
+    "Name": "Allflame Embers"
+  },
+  {
+    "_index": 95,
+    "Id": "SoulCores",
+    "Name": "Soul Cores"
+  },
+  {
+    "_index": 96,
+    "Id": "DeepwaterDucats",
+    "Name": "Ducats"
+  },
+  {
+    "_index": 97,
+    "Id": "DeepwaterOther",
+    "Name": "Allflame"
+  }
+]
