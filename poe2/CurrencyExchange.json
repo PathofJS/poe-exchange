@@ -1,0 +1,6185 @@
+[
+  {
+    "_index": 0,
+    "Item": 24,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 20
+  },
+  {
+    "_index": 1,
+    "Item": 25,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 2,
+    "Item": 26,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 3,
+    "Item": 13,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 50
+  },
+  {
+    "_index": 4,
+    "Item": 14,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 150
+  },
+  {
+    "_index": 5,
+    "Item": 15,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 6,
+    "Item": 21,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 7,
+    "Item": 22,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 360
+  },
+  {
+    "_index": 8,
+    "Item": 23,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 9,
+    "Item": 18,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 10,
+    "Item": 19,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 360
+  },
+  {
+    "_index": 11,
+    "Item": 20,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 12,
+    "Item": 3,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 160
+  },
+  {
+    "_index": 13,
+    "Item": 4,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 14,
+    "Item": 5,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 15,
+    "Item": 52,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 160
+  },
+  {
+    "_index": 16,
+    "Item": 9,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 17,
+    "Item": 36,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 18,
+    "Item": 10,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 19,
+    "Item": 196,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 20,
+    "Item": 35,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 21,
+    "Item": 203,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 22,
+    "Item": 8,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 6000
+  },
+  {
+    "_index": 23,
+    "Item": 7,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 25000
+  },
+  {
+    "_index": 24,
+    "Item": 5492,
+    "Category": 0,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2500
+  },
+  {
+    "_index": 25,
+    "Item": 32,
+    "Category": 0,
+    "SubCategory": 2,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 26,
+    "Item": 33,
+    "Category": 0,
+    "SubCategory": 2,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 600
+  },
+  {
+    "_index": 27,
+    "Item": 34,
+    "Category": 0,
+    "SubCategory": 2,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 28,
+    "Item": 41,
+    "Category": 0,
+    "SubCategory": 4,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 4
+  },
+  {
+    "_index": 29,
+    "Item": 213,
+    "Category": 0,
+    "SubCategory": 4,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 12
+  },
+  {
+    "_index": 30,
+    "Item": 215,
+    "Category": 0,
+    "SubCategory": 4,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 31,
+    "Item": 44,
+    "Category": 0,
+    "SubCategory": 4,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 32,
+    "Item": 6,
+    "Category": 0,
+    "SubCategory": 1,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 33,
+    "Item": 0,
+    "Category": 0,
+    "SubCategory": 1,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 34,
+    "Item": 1,
+    "Category": 0,
+    "SubCategory": 1,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 35,
+    "Item": 28,
+    "Category": 0,
+    "SubCategory": 1,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 36,
+    "Item": 29,
+    "Category": 0,
+    "SubCategory": 1,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 37,
+    "Item": 2,
+    "Category": 0,
+    "SubCategory": 3,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1
+  },
+  {
+    "_index": 38,
+    "Item": 87,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 50
+  },
+  {
+    "_index": 39,
+    "Item": 88,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 50
+  },
+  {
+    "_index": 40,
+    "Item": 89,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 50
+  },
+  {
+    "_index": 41,
+    "Item": 90,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 70
+  },
+  {
+    "_index": 42,
+    "Item": 91,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 43,
+    "Item": 145,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 44,
+    "Item": 92,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 45,
+    "Item": 149,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 46,
+    "Item": 93,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 47,
+    "Item": 153,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 60
+  },
+  {
+    "_index": 48,
+    "Item": 94,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 90
+  },
+  {
+    "_index": 49,
+    "Item": 165,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 90
+  },
+  {
+    "_index": 50,
+    "Item": 95,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 80
+  },
+  {
+    "_index": 51,
+    "Item": 96,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 80
+  },
+  {
+    "_index": 52,
+    "Item": 97,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 53,
+    "Item": 157,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 54,
+    "Item": 98,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 55,
+    "Item": 135,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 56,
+    "Item": 161,
+    "Category": 11,
+    "SubCategory": 10,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 57,
+    "Item": 99,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 58,
+    "Item": 100,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 59,
+    "Item": 101,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 60,
+    "Item": 102,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 140
+  },
+  {
+    "_index": 61,
+    "Item": 103,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 62,
+    "Item": 146,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 63,
+    "Item": 104,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 64,
+    "Item": 150,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 65,
+    "Item": 105,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 66,
+    "Item": 154,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 67,
+    "Item": 106,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 68,
+    "Item": 166,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 69,
+    "Item": 107,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 160
+  },
+  {
+    "_index": 70,
+    "Item": 108,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 160
+  },
+  {
+    "_index": 71,
+    "Item": 109,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 72,
+    "Item": 158,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 73,
+    "Item": 110,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 74,
+    "Item": 136,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 75,
+    "Item": 162,
+    "Category": 11,
+    "SubCategory": 11,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 76,
+    "Item": 111,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 77,
+    "Item": 112,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 78,
+    "Item": 113,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 79,
+    "Item": 122,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 330
+  },
+  {
+    "_index": 80,
+    "Item": 115,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 81,
+    "Item": 147,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 82,
+    "Item": 116,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 83,
+    "Item": 151,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 84,
+    "Item": 117,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 85,
+    "Item": 155,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 370
+  },
+  {
+    "_index": 86,
+    "Item": 114,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 410
+  },
+  {
+    "_index": 87,
+    "Item": 119,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 88,
+    "Item": 120,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 89,
+    "Item": 118,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 90,
+    "Item": 167,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 91,
+    "Item": 121,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 92,
+    "Item": 159,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 93,
+    "Item": 137,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 94,
+    "Item": 163,
+    "Category": 11,
+    "SubCategory": 12,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 95,
+    "Item": 123,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 96,
+    "Item": 124,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 97,
+    "Item": 125,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 98,
+    "Item": 126,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 99,
+    "Item": 127,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 100,
+    "Item": 148,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 101,
+    "Item": 128,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 102,
+    "Item": 152,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 103,
+    "Item": 129,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 104,
+    "Item": 156,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 105,
+    "Item": 130,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 106,
+    "Item": 168,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 107,
+    "Item": 131,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 108,
+    "Item": 132,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 109,
+    "Item": 133,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 110,
+    "Item": 160,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 111,
+    "Item": 134,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 112,
+    "Item": 138,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 113,
+    "Item": 164,
+    "Category": 11,
+    "SubCategory": 13,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 114,
+    "Item": 139,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 115,
+    "Item": 140,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 116,
+    "Item": 141,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 117,
+    "Item": 142,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 118,
+    "Item": 143,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 119,
+    "Item": 144,
+    "Category": 11,
+    "SubCategory": 14,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 120,
+    "Item": 193,
+    "Category": 18,
+    "SubCategory": 18,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 3
+  },
+  {
+    "_index": 121,
+    "Item": 906,
+    "Category": 18,
+    "SubCategory": 18,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 122,
+    "Item": 3791,
+    "Category": 18,
+    "SubCategory": 18,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 123,
+    "Item": 177,
+    "Category": 15,
+    "SubCategory": 15,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 3
+  },
+  {
+    "_index": 124,
+    "Item": 1111,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 125,
+    "Item": 1112,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 140
+  },
+  {
+    "_index": 126,
+    "Item": 1113,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 127,
+    "Item": 1114,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 220
+  },
+  {
+    "_index": 128,
+    "Item": 1115,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 129,
+    "Item": 1116,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 400
+  },
+  {
+    "_index": 130,
+    "Item": 1117,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 520
+  },
+  {
+    "_index": 131,
+    "Item": 1118,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 700
+  },
+  {
+    "_index": 132,
+    "Item": 1119,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 920
+  },
+  {
+    "_index": 133,
+    "Item": 1120,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 134,
+    "Item": 1121,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 135,
+    "Item": 1122,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 140
+  },
+  {
+    "_index": 136,
+    "Item": 1123,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 137,
+    "Item": 1124,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 220
+  },
+  {
+    "_index": 138,
+    "Item": 1125,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 139,
+    "Item": 1126,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 400
+  },
+  {
+    "_index": 140,
+    "Item": 1127,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 520
+  },
+  {
+    "_index": 141,
+    "Item": 1128,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 700
+  },
+  {
+    "_index": 142,
+    "Item": 1129,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 920
+  },
+  {
+    "_index": 143,
+    "Item": 1130,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 144,
+    "Item": 1131,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 145,
+    "Item": 1132,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 146,
+    "Item": 1133,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 147,
+    "Item": 1134,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 148,
+    "Item": 1135,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 149,
+    "Item": 1136,
+    "Category": 18,
+    "SubCategory": 20,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 150,
+    "Item": 800,
+    "Category": 18,
+    "SubCategory": 18,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 151,
+    "Item": 277,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 152,
+    "Item": 278,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 153,
+    "Item": 279,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 154,
+    "Item": 288,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 160
+  },
+  {
+    "_index": 155,
+    "Item": 281,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 260
+  },
+  {
+    "_index": 156,
+    "Item": 282,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 260
+  },
+  {
+    "_index": 157,
+    "Item": 283,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 260
+  },
+  {
+    "_index": 158,
+    "Item": 280,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 360
+  },
+  {
+    "_index": 159,
+    "Item": 285,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 560
+  },
+  {
+    "_index": 160,
+    "Item": 286,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 560
+  },
+  {
+    "_index": 161,
+    "Item": 284,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 960
+  },
+  {
+    "_index": 162,
+    "Item": 287,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 163,
+    "Item": 289,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 560
+  },
+  {
+    "_index": 164,
+    "Item": 290,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 165,
+    "Item": 291,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 166,
+    "Item": 292,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 167,
+    "Item": 293,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 168,
+    "Item": 294,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1300
+  },
+  {
+    "_index": 169,
+    "Item": 295,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1300
+  },
+  {
+    "_index": 170,
+    "Item": 296,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1300
+  },
+  {
+    "_index": 171,
+    "Item": 297,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1800
+  },
+  {
+    "_index": 172,
+    "Item": 298,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2800
+  },
+  {
+    "_index": 173,
+    "Item": 299,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2800
+  },
+  {
+    "_index": 174,
+    "Item": 300,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 4800
+  },
+  {
+    "_index": 175,
+    "Item": 301,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 5000
+  },
+  {
+    "_index": 176,
+    "Item": 302,
+    "Category": 15,
+    "SubCategory": 17,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2800
+  },
+  {
+    "_index": 177,
+    "Item": 4875,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 178,
+    "Item": 4876,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 540
+  },
+  {
+    "_index": 179,
+    "Item": 4877,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 180,
+    "Item": 4878,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 181,
+    "Item": 4879,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 540
+  },
+  {
+    "_index": 182,
+    "Item": 4880,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 183,
+    "Item": 4881,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 180
+  },
+  {
+    "_index": 184,
+    "Item": 4882,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 540
+  },
+  {
+    "_index": 185,
+    "Item": 4883,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 186,
+    "Item": 4884,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 540
+  },
+  {
+    "_index": 187,
+    "Item": 4885,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 540
+  },
+  {
+    "_index": 188,
+    "Item": 4886,
+    "Category": 48,
+    "SubCategory": 49,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 189,
+    "Item": 54,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 190,
+    "Item": 55,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 191,
+    "Item": 56,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 192,
+    "Item": 57,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 193,
+    "Item": 58,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 194,
+    "Item": 59,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 195,
+    "Item": 60,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 196,
+    "Item": 61,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 197,
+    "Item": 62,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 198,
+    "Item": 65,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 199,
+    "Item": 66,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 200,
+    "Item": 67,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 201,
+    "Item": 68,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 202,
+    "Item": 70,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 203,
+    "Item": 71,
+    "Category": 52,
+    "SubCategory": 0,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 204,
+    "Item": 788,
+    "Category": 52,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 205,
+    "Item": 789,
+    "Category": 52,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 206,
+    "Item": 790,
+    "Category": 52,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 207,
+    "Item": 791,
+    "Category": 52,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 208,
+    "Item": 4276,
+    "Category": 5,
+    "SubCategory": 7,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 209,
+    "Item": 4277,
+    "Category": 5,
+    "SubCategory": 7,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 210,
+    "Item": 4278,
+    "Category": 5,
+    "SubCategory": 7,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 211,
+    "Item": 4254,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 212,
+    "Item": 4255,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 213,
+    "Item": 4256,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 214,
+    "Item": 4263,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 215,
+    "Item": 4264,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 216,
+    "Item": 4265,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 217,
+    "Item": 4271,
+    "Category": 5,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 218,
+    "Item": 924,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 219,
+    "Item": 925,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 220,
+    "Item": 926,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 221,
+    "Item": 927,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 222,
+    "Item": 928,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 223,
+    "Item": 929,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 224,
+    "Item": 930,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 225,
+    "Item": 932,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 226,
+    "Item": 933,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 227,
+    "Item": 934,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 228,
+    "Item": 935,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 229,
+    "Item": 936,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 230,
+    "Item": 937,
+    "Category": 5,
+    "SubCategory": 9,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 231,
+    "Item": 634,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 232,
+    "Item": 624,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 233,
+    "Item": 644,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 234,
+    "Item": 635,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 235,
+    "Item": 625,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 236,
+    "Item": 645,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 237,
+    "Item": 636,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 238,
+    "Item": 626,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 239,
+    "Item": 646,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 240,
+    "Item": 637,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 241,
+    "Item": 627,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 242,
+    "Item": 647,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 243,
+    "Item": 638,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 244,
+    "Item": 628,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 245,
+    "Item": 648,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 246,
+    "Item": 639,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 247,
+    "Item": 629,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 248,
+    "Item": 649,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 249,
+    "Item": 643,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 250,
+    "Item": 633,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 251,
+    "Item": 653,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 252,
+    "Item": 640,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 150
+  },
+  {
+    "_index": 253,
+    "Item": 630,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 254,
+    "Item": 650,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 255,
+    "Item": 641,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 150
+  },
+  {
+    "_index": 256,
+    "Item": 631,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 257,
+    "Item": 651,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 258,
+    "Item": 642,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 175
+  },
+  {
+    "_index": 259,
+    "Item": 632,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 260,
+    "Item": 652,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 261,
+    "Item": 654,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 262,
+    "Item": 655,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 263,
+    "Item": 656,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 264,
+    "Item": 657,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 265,
+    "Item": 658,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 266,
+    "Item": 659,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 267,
+    "Item": 660,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 268,
+    "Item": 661,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 269,
+    "Item": 662,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 270,
+    "Item": 663,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 271,
+    "Item": 667,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 272,
+    "Item": 671,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 273,
+    "Item": 675,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 274,
+    "Item": 5095,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 275,
+    "Item": 5099,
+    "Category": 37,
+    "SubCategory": 38,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 276,
+    "Item": 679,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 277,
+    "Item": 680,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 278,
+    "Item": 681,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 279,
+    "Item": 682,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 280,
+    "Item": 691,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 281,
+    "Item": 699,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 282,
+    "Item": 700,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 283,
+    "Item": 701,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 284,
+    "Item": 685,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 285,
+    "Item": 697,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 286,
+    "Item": 683,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 287,
+    "Item": 684,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 288,
+    "Item": 703,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 289,
+    "Item": 692,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 290,
+    "Item": 688,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 291,
+    "Item": 696,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 292,
+    "Item": 690,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 293,
+    "Item": 689,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 294,
+    "Item": 702,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 295,
+    "Item": 693,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 296,
+    "Item": 694,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 297,
+    "Item": 695,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 298,
+    "Item": 698,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 299,
+    "Item": 686,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 300,
+    "Item": 687,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 301,
+    "Item": 664,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 302,
+    "Item": 665,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 303,
+    "Item": 666,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 304,
+    "Item": 668,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 305,
+    "Item": 669,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 306,
+    "Item": 670,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 307,
+    "Item": 672,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 125
+  },
+  {
+    "_index": 308,
+    "Item": 673,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 350
+  },
+  {
+    "_index": 309,
+    "Item": 674,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 310,
+    "Item": 704,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 311,
+    "Item": 4438,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 312,
+    "Item": 4439,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 313,
+    "Item": 4440,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 314,
+    "Item": 4441,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 315,
+    "Item": 4454,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 316,
+    "Item": 4432,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 317,
+    "Item": 4433,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 318,
+    "Item": 4442,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 319,
+    "Item": 4434,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 320,
+    "Item": 4444,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 321,
+    "Item": 4445,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 322,
+    "Item": 4453,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 600
+  },
+  {
+    "_index": 323,
+    "Item": 4468,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 600
+  },
+  {
+    "_index": 324,
+    "Item": 4449,
+    "Category": 6,
+    "SubCategory": 42,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 325,
+    "Item": 4451,
+    "Category": 6,
+    "SubCategory": 42,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 326,
+    "Item": 4452,
+    "Category": 6,
+    "SubCategory": 42,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 327,
+    "Item": 4450,
+    "Category": 6,
+    "SubCategory": 42,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 328,
+    "Item": 4446,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": false,
+    "GoldPurchaseFee": 920
+  },
+  {
+    "_index": 329,
+    "Item": 4435,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 330,
+    "Item": 4436,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 331,
+    "Item": 4437,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 332,
+    "Item": 4459,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 333,
+    "Item": 4460,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 334,
+    "Item": 4461,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 335,
+    "Item": 4462,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 336,
+    "Item": 4447,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 337,
+    "Item": 4448,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 338,
+    "Item": 4463,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 339,
+    "Item": 4464,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 340,
+    "Item": 4466,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 341,
+    "Item": 4467,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 342,
+    "Item": 4443,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 343,
+    "Item": 4458,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 344,
+    "Item": 4465,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 345,
+    "Item": 4455,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 346,
+    "Item": 4456,
+    "Category": 6,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 120
+  },
+  {
+    "_index": 347,
+    "Item": 4469,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 348,
+    "Item": 4470,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 349,
+    "Item": 4471,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 350,
+    "Item": 4472,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 351,
+    "Item": 4473,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 352,
+    "Item": 4474,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 353,
+    "Item": 4475,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 354,
+    "Item": 4476,
+    "Category": 48,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 355,
+    "Item": 767,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 356,
+    "Item": 758,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 357,
+    "Item": 759,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 358,
+    "Item": 760,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 359,
+    "Item": 761,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 360,
+    "Item": 762,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 361,
+    "Item": 763,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 362,
+    "Item": 764,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 363,
+    "Item": 765,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 364,
+    "Item": 768,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 365,
+    "Item": 769,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 366,
+    "Item": 770,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 367,
+    "Item": 771,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 368,
+    "Item": 772,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 369,
+    "Item": 766,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 370,
+    "Item": 728,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 371,
+    "Item": 725,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 372,
+    "Item": 726,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 373,
+    "Item": 727,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 374,
+    "Item": 732,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 375,
+    "Item": 733,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 376,
+    "Item": 734,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 377,
+    "Item": 739,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 378,
+    "Item": 738,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 379,
+    "Item": 737,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 380,
+    "Item": 736,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 381,
+    "Item": 729,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 382,
+    "Item": 730,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 383,
+    "Item": 731,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 384,
+    "Item": 735,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 385,
+    "Item": 740,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 386,
+    "Item": 741,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 387,
+    "Item": 742,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 388,
+    "Item": 743,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 389,
+    "Item": 744,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 390,
+    "Item": 745,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 391,
+    "Item": 746,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 392,
+    "Item": 747,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 393,
+    "Item": 748,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 394,
+    "Item": 749,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 395,
+    "Item": 750,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 396,
+    "Item": 751,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 397,
+    "Item": 752,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 398,
+    "Item": 753,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 399,
+    "Item": 754,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 400,
+    "Item": 755,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 401,
+    "Item": 756,
+    "Category": 40,
+    "SubCategory": 40,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 402,
+    "Item": 780,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 403,
+    "Item": 774,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 404,
+    "Item": 778,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 405,
+    "Item": 779,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 406,
+    "Item": 773,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 407,
+    "Item": 777,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 408,
+    "Item": 776,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 409,
+    "Item": 775,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 410,
+    "Item": 781,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 411,
+    "Item": 783,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 412,
+    "Item": 782,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 850
+  },
+  {
+    "_index": 413,
+    "Item": 706,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 414,
+    "Item": 710,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 415,
+    "Item": 708,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 416,
+    "Item": 709,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 417,
+    "Item": 711,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 418,
+    "Item": 705,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 419,
+    "Item": 707,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 420,
+    "Item": 719,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 421,
+    "Item": 720,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 422,
+    "Item": 721,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 423,
+    "Item": 796,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 424,
+    "Item": 797,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 425,
+    "Item": 798,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 426,
+    "Item": 799,
+    "Category": 43,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 427,
+    "Item": 712,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 428,
+    "Item": 713,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 429,
+    "Item": 714,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 430,
+    "Item": 715,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 431,
+    "Item": 716,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 432,
+    "Item": 717,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 433,
+    "Item": 718,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 434,
+    "Item": 722,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 435,
+    "Item": 723,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 436,
+    "Item": 724,
+    "Category": 43,
+    "SubCategory": 43,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 437,
+    "Item": 4922,
+    "Category": 44,
+    "SubCategory": 45,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 438,
+    "Item": 4923,
+    "Category": 44,
+    "SubCategory": 45,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 439,
+    "Item": 4924,
+    "Category": 44,
+    "SubCategory": 45,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 440,
+    "Item": 4925,
+    "Category": 44,
+    "SubCategory": 45,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 400
+  },
+  {
+    "_index": 441,
+    "Item": 4926,
+    "Category": 44,
+    "SubCategory": 45,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 442,
+    "Item": 4927,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 576
+  },
+  {
+    "_index": 443,
+    "Item": 4928,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 654
+  },
+  {
+    "_index": 444,
+    "Item": 4929,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 746
+  },
+  {
+    "_index": 445,
+    "Item": 4930,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 830
+  },
+  {
+    "_index": 446,
+    "Item": 4931,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 915
+  },
+  {
+    "_index": 447,
+    "Item": 4932,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1004
+  },
+  {
+    "_index": 448,
+    "Item": 4933,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1243
+  },
+  {
+    "_index": 449,
+    "Item": 4934,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1353
+  },
+  {
+    "_index": 450,
+    "Item": 4935,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1524
+  },
+  {
+    "_index": 451,
+    "Item": 4936,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1654
+  },
+  {
+    "_index": 452,
+    "Item": 4937,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1873
+  },
+  {
+    "_index": 453,
+    "Item": 4938,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2317
+  },
+  {
+    "_index": 454,
+    "Item": 4939,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2579
+  },
+  {
+    "_index": 455,
+    "Item": 4940,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2922
+  },
+  {
+    "_index": 456,
+    "Item": 4941,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 3309
+  },
+  {
+    "_index": 457,
+    "Item": 4942,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 4010
+  },
+  {
+    "_index": 458,
+    "Item": 4943,
+    "Category": 44,
+    "SubCategory": 47,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 16107
+  },
+  {
+    "_index": 459,
+    "Item": 4902,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 270
+  },
+  {
+    "_index": 460,
+    "Item": 4903,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 421
+  },
+  {
+    "_index": 461,
+    "Item": 4904,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 498
+  },
+  {
+    "_index": 462,
+    "Item": 4905,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 576
+  },
+  {
+    "_index": 463,
+    "Item": 4906,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 654
+  },
+  {
+    "_index": 464,
+    "Item": 4907,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 746
+  },
+  {
+    "_index": 465,
+    "Item": 4908,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 830
+  },
+  {
+    "_index": 466,
+    "Item": 4909,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 915
+  },
+  {
+    "_index": 467,
+    "Item": 4910,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1004
+  },
+  {
+    "_index": 468,
+    "Item": 4911,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1243
+  },
+  {
+    "_index": 469,
+    "Item": 4912,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1353
+  },
+  {
+    "_index": 470,
+    "Item": 4913,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1524
+  },
+  {
+    "_index": 471,
+    "Item": 4914,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1654
+  },
+  {
+    "_index": 472,
+    "Item": 4915,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1873
+  },
+  {
+    "_index": 473,
+    "Item": 4916,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2317
+  },
+  {
+    "_index": 474,
+    "Item": 4917,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2579
+  },
+  {
+    "_index": 475,
+    "Item": 4918,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2922
+  },
+  {
+    "_index": 476,
+    "Item": 4919,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 3309
+  },
+  {
+    "_index": 477,
+    "Item": 4920,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 4010
+  },
+  {
+    "_index": 478,
+    "Item": 4921,
+    "Category": 44,
+    "SubCategory": 46,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 16107
+  },
+  {
+    "_index": 479,
+    "Item": 4948,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 654
+  },
+  {
+    "_index": 480,
+    "Item": 4949,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 746
+  },
+  {
+    "_index": 481,
+    "Item": 4950,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 830
+  },
+  {
+    "_index": 482,
+    "Item": 4951,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 915
+  },
+  {
+    "_index": 483,
+    "Item": 4952,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1004
+  },
+  {
+    "_index": 484,
+    "Item": 4953,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1243
+  },
+  {
+    "_index": 485,
+    "Item": 4954,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1353
+  },
+  {
+    "_index": 486,
+    "Item": 4955,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1524
+  },
+  {
+    "_index": 487,
+    "Item": 4956,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1654
+  },
+  {
+    "_index": 488,
+    "Item": 4957,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1873
+  },
+  {
+    "_index": 489,
+    "Item": 4958,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2317
+  },
+  {
+    "_index": 490,
+    "Item": 4959,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2579
+  },
+  {
+    "_index": 491,
+    "Item": 4960,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2922
+  },
+  {
+    "_index": 492,
+    "Item": 4961,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 3309
+  },
+  {
+    "_index": 493,
+    "Item": 4962,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 4010
+  },
+  {
+    "_index": 494,
+    "Item": 4963,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 16107
+  },
+  {
+    "_index": 495,
+    "Item": 3996,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 496,
+    "Item": 4004,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 497,
+    "Item": 4028,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 498,
+    "Item": 4044,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 499,
+    "Item": 4051,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 500,
+    "Item": 4092,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 501,
+    "Item": 4151,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 502,
+    "Item": 4217,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 503,
+    "Item": 4238,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 504,
+    "Item": 4485,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 505,
+    "Item": 4490,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 506,
+    "Item": 4524,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 507,
+    "Item": 4541,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 508,
+    "Item": 4567,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 509,
+    "Item": 4704,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 510,
+    "Item": 4735,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 511,
+    "Item": 4801,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 512,
+    "Item": 4813,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 513,
+    "Item": 4814,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 514,
+    "Item": 4834,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 515,
+    "Item": 4835,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 516,
+    "Item": 4816,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 517,
+    "Item": 4817,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 518,
+    "Item": 4818,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 519,
+    "Item": 4819,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 520,
+    "Item": 4820,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 521,
+    "Item": 4832,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 522,
+    "Item": 4840,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 523,
+    "Item": 4830,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 524,
+    "Item": 4821,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 525,
+    "Item": 4842,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 526,
+    "Item": 4223,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 527,
+    "Item": 4822,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 528,
+    "Item": 4823,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 529,
+    "Item": 4824,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 530,
+    "Item": 4825,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 531,
+    "Item": 4183,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 532,
+    "Item": 4826,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 533,
+    "Item": 4239,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 534,
+    "Item": 4831,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 535,
+    "Item": 4833,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 536,
+    "Item": 4836,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 537,
+    "Item": 4837,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 538,
+    "Item": 4838,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 539,
+    "Item": 4841,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 540,
+    "Item": 4559,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 541,
+    "Item": 4828,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 542,
+    "Item": 4829,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 543,
+    "Item": 4240,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 544,
+    "Item": 4175,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 545,
+    "Item": 4197,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 546,
+    "Item": 3789,
+    "Category": 48,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 547,
+    "Item": 784,
+    "Category": 48,
+    "SubCategory": 53,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 548,
+    "Item": 785,
+    "Category": 48,
+    "SubCategory": 53,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 549,
+    "Item": 786,
+    "Category": 48,
+    "SubCategory": 53,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 550,
+    "Item": 787,
+    "Category": 48,
+    "SubCategory": 53,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 551,
+    "Item": 4682,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 552,
+    "Item": 4844,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 553,
+    "Item": 870,
+    "Category": 15,
+    "SubCategory": 15,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 554,
+    "Item": 1459,
+    "Category": 29,
+    "SubCategory": 29,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 555,
+    "Item": 3793,
+    "Category": 29,
+    "SubCategory": 29,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 556,
+    "Item": 3792,
+    "Category": 29,
+    "SubCategory": 29,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 557,
+    "Item": 1460,
+    "Category": 29,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 558,
+    "Item": 1461,
+    "Category": 29,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 559,
+    "Item": 1462,
+    "Category": 29,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 560,
+    "Item": 1463,
+    "Category": 29,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 561,
+    "Item": 1464,
+    "Category": 29,
+    "SubCategory": 41,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 562,
+    "Item": 5060,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 10
+  },
+  {
+    "_index": 563,
+    "Item": 5061,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 564,
+    "Item": 5065,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 565,
+    "Item": 5066,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 500
+  },
+  {
+    "_index": 566,
+    "Item": 5067,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 567,
+    "Item": 5068,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 568,
+    "Item": 5069,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 569,
+    "Item": 5070,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 150
+  },
+  {
+    "_index": 570,
+    "Item": 5071,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 200
+  },
+  {
+    "_index": 571,
+    "Item": 5072,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 300
+  },
+  {
+    "_index": 572,
+    "Item": 5073,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 450
+  },
+  {
+    "_index": 573,
+    "Item": 5074,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 600
+  },
+  {
+    "_index": 574,
+    "Item": 5075,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 800
+  },
+  {
+    "_index": 575,
+    "Item": 5076,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 576,
+    "Item": 5077,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 577,
+    "Item": 5078,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 578,
+    "Item": 5079,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 579,
+    "Item": 5080,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 580,
+    "Item": 5081,
+    "Category": 29,
+    "SubCategory": 32,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 581,
+    "Item": 5087,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 582,
+    "Item": 5088,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 583,
+    "Item": 5089,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 584,
+    "Item": 5090,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 585,
+    "Item": 5091,
+    "Category": 29,
+    "SubCategory": 31,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 586,
+    "Item": 5155,
+    "Category": 29,
+    "SubCategory": 33,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 5000
+  },
+  {
+    "_index": 587,
+    "Item": 5086,
+    "Category": 29,
+    "SubCategory": 34,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 588,
+    "Item": 5082,
+    "Category": 29,
+    "SubCategory": 34,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 589,
+    "Item": 5083,
+    "Category": 29,
+    "SubCategory": 34,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 590,
+    "Item": 5084,
+    "Category": 29,
+    "SubCategory": 34,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 591,
+    "Item": 5085,
+    "Category": 29,
+    "SubCategory": 34,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 2000
+  },
+  {
+    "_index": 592,
+    "Item": 481,
+    "Category": 15,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 593,
+    "Item": 480,
+    "Category": 6,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 594,
+    "Item": 911,
+    "Category": 6,
+    "SubCategory": 8,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 595,
+    "Item": 5495,
+    "Category": 6,
+    "SubCategory": 6,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 596,
+    "Item": 5121,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 597,
+    "Item": 5122,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 598,
+    "Item": 5123,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 599,
+    "Item": 5124,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 600,
+    "Item": 5125,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 601,
+    "Item": 5126,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 602,
+    "Item": 5127,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 603,
+    "Item": 5128,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 604,
+    "Item": 5129,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 605,
+    "Item": 5130,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 606,
+    "Item": 5131,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 607,
+    "Item": 5132,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 608,
+    "Item": 5133,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 609,
+    "Item": 5134,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 610,
+    "Item": 5135,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 611,
+    "Item": 5136,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 612,
+    "Item": 5137,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 613,
+    "Item": 5138,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 614,
+    "Item": 5139,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 615,
+    "Item": 5140,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 616,
+    "Item": 5141,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 617,
+    "Item": 5142,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 618,
+    "Item": 5143,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 619,
+    "Item": 5144,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 620,
+    "Item": 5145,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 621,
+    "Item": 5146,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 622,
+    "Item": 5092,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 623,
+    "Item": 5093,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 624,
+    "Item": 5094,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 625,
+    "Item": 5096,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 100
+  },
+  {
+    "_index": 626,
+    "Item": 5097,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 250
+  },
+  {
+    "_index": 627,
+    "Item": 5098,
+    "Category": 37,
+    "SubCategory": 37,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 750
+  },
+  {
+    "_index": 628,
+    "Item": 5100,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 629,
+    "Item": 5101,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 630,
+    "Item": 5102,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 631,
+    "Item": 5103,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 632,
+    "Item": 5104,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 633,
+    "Item": 5105,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 634,
+    "Item": 5106,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 635,
+    "Item": 5107,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 636,
+    "Item": 5108,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 637,
+    "Item": 5109,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 638,
+    "Item": 5110,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 639,
+    "Item": 5111,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 640,
+    "Item": 5112,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 641,
+    "Item": 5113,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 642,
+    "Item": 5114,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 643,
+    "Item": 5115,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 644,
+    "Item": 5116,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 645,
+    "Item": 5156,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 646,
+    "Item": 5157,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 647,
+    "Item": 5158,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 648,
+    "Item": 792,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 649,
+    "Item": 793,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 650,
+    "Item": 794,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 651,
+    "Item": 795,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 652,
+    "Item": 5159,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 653,
+    "Item": 5160,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 654,
+    "Item": 5161,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 655,
+    "Item": 5162,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 656,
+    "Item": 5163,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 657,
+    "Item": 5164,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 658,
+    "Item": 5165,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 659,
+    "Item": 5117,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 660,
+    "Item": 5118,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 661,
+    "Item": 5119,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 662,
+    "Item": 5120,
+    "Category": 37,
+    "SubCategory": 39,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1500
+  },
+  {
+    "_index": 663,
+    "Item": 4094,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 664,
+    "Item": 4241,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 665,
+    "Item": 4845,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 666,
+    "Item": 4846,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 667,
+    "Item": 4847,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 668,
+    "Item": 4849,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 669,
+    "Item": 4851,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 670,
+    "Item": 4852,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 671,
+    "Item": 4853,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 672,
+    "Item": 4855,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 673,
+    "Item": 4856,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 674,
+    "Item": 4857,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 675,
+    "Item": 4858,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 676,
+    "Item": 4859,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 677,
+    "Item": 4860,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 678,
+    "Item": 4861,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 679,
+    "Item": 4862,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 680,
+    "Item": 4864,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 681,
+    "Item": 4865,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 682,
+    "Item": 4867,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 683,
+    "Item": 4868,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 684,
+    "Item": 4871,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 685,
+    "Item": 5247,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  },
+  {
+    "_index": 686,
+    "Item": 5489,
+    "Category": 50,
+    "SubCategory": 51,
+    "EnabledInStandardLeague": true,
+    "EnabledInChallengeLeague": true,
+    "GoldPurchaseFee": 1000
+  }
+]
